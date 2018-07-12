@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="debug">DEBUG</string>
+    <string name="error.text.maintenance">NOTRE SITE EST ACTUELLEMENT EN COURS DE MAINTENANCE</string>
+    <string name="error.text.undefined">Une erreur inconnue.</string>
+    <string name="error.text.connection">Impossible de se connecter au serveur. Veuillez réessayer ultérieurement.</string>
+    <string name="error">Erreur</string>
+    <string name="error.text.input.id">Entrez l\'adresse électrique ou l\'identifiant Tabio.</string>
+    <string name="error.text.input.tabioid">Entrez l\'identifiant Tabio.</string>
+    <string name="error.text.input.pin">Entrez le code PIN.</string>
+    <string name="error.text.input.email">Veuillez saisir votre adresse e-mail.</string>
+    <string name="error.text.input.password">Entrez le mot de passe ou le code PIN.</string>
+    <string name="error.text.input.password2">Entrez le mot de passe.</string>
+    <string name="error.text.location.toolong">We\'re trying to obtain your location information. Please wait for a while…</string>
+    <string name="error.text.nodata">%1$sn\'est pas trouvé.</string>
+    <string name="text.item">Article</string>
+    <string name="text.items2">Article</string>
+    <string name="text.store">Magasins</string>
+    <string name="text.coordinate">Look</string>
+    <string name="text.review">Commentaire</string>
+    <string name="text.readHistory">Parcouru récemment</string>
+    <string name="text.orderHistory">Historique de mes achats</string>
+    <string name="text.news">Notifications</string>
+    <string name="text.topics">Quoi de neuf</string>
+    <string name="button.start">Accéder</string>
+    <string name="button.first">Nouveau client?</string>
+    <string name="button.login">Connexion</string>
+    <string name="button.login.first">Membres inscrits, Changement de modèle</string>
+    <string name="button.accept">Accepter</string>
+    <string name="button.resetPassword">Mot de passe oublié?</string>
+    <string name="button.aboutAccount">Qu\'est ce que c\'est le Tabio ID et le code PIN?</string>
+    <string name="button.editAccount">Gérer mon compte</string>
+    <string name="button.purchaseNow">Acheter</string>
+    <string name="button.restockRequest">Demander stock</string>
+    <string name="button.restockRequested">Demandé</string>
+    <string name="button.restockRequested2">Demandé</string>
+    <string name="button.soldout">Non disponible</string>
+    <string name="button.map">Plan</string>
+    <string name="button.phone">Appeler</string>
+    <string name="button.favorite">MesFavoris</string>
+    <string name="button.more">Afficher plus</string>
+    <string name="button.search">Recherche</string>
+    <string name="button.help">Aide</string>
+    <string name="button.newCoupon">Coupon nouvel arrivant</string>
+    <string name="button.cart">Panier</string>
+    <string name="button.cart.check">Voir mon panier</string>
+    <string name="button.back">Retourner</string>
+    <string name="button.cover">Photo de profil</string>
+    <string name="button.edit">Modifier</string>
+    <string name="button.reset">Annuler</string>
+    <string name="button.connectFacebook">Lier au compte Facebook</string>
+    <string name="button.connectTwitter">Lier au compte Twitter</string>
+    <string name="button.registerEmailPassword">Enregistrer E-mail/Mot de passe</string>
+    <string name="button.settings">Paramètres</string>
+    <string name="button.close">Fermer</string>
+    <string name="button.detail">Voir détails</string>
+    <string name="button.save">Sauvegarder</string>
+    <string name="button.save.id.pin">Sauvegarder ID / code PIN par e-mail</string>
+    <string name="button.review.create">Envoyer votre commentaire</string>
+    <string name="button.send">Envoyer</string>
+    <string name="button.push.desc">Configuration du mode PUSH.</string>
+    <string name="button.ok">OK</string>
+    <string name="button.register">Enregistrer</string>
+    <string name="button.update.emailpassword">Changer d\'adresse électrique et/ou de mot de passe</string>
+    <string name="button.contact">Formulaire de demande</string>
+    <string name="button.returned">Aller sur la page de Retour/Echange</string>
+    <string name="button.cancel">Annulation</string>
+    <string name="button.delivery.status">Suivi des commandes</string>
+    <string name="text.input.required">Requis</string>
+    <string name="text.tutorial.1">Disponible à n\'importe quel moment et où que vous soyez. App Tabio</string>
+    <string name="text.tutorial.2">Vous pouvez également faire des achats, Check-in, et voir les nouveaux looks.</string>
+    <string name="text.tutorial.3">Accumulez des pieces de diverses façons, puis avec ces pieces, gagnez des points qui vous permettent d\'utiliser pour vos achats!</string>
+    <string name="text.tutorial.4">Cumulez des PIECEs pour surclasser votre statut de membre. Vous allez recevoir des coupons promotionnels en fonction de votre niveau de statut.</string>
+    <string name="text.terms.title">Mentions légales/CGV</string>
+    <string name="text.about.description">Tabio ID et PIN code sont la référence et le mot de passe attributés automatiquement lors de la création de votre compte sur Tabio App. Vous pouvez le vérifier dans "My Page".</string>
+    <string name="text.about.example.title">Exemplaire de Tabio ID / PIN</string>
+    <string name="text.about.example.tabio.id">Tabio ID : 1234567890123</string>
+    <string name="text.about.example.tabio.pin">PIN code : 1234</string>
+    <string name="text.about.caution">
+        L\'identifiant Tabio et le code PIN seront traités comme l\'identifiant de connexion et le mot de passe.
+        Ces identifiant et code PIN ne peuvent pas être redélivrés.
+        Veuillez conserver soigneusement votre identifiant et votre code PIN au moyen d\'un envoi électronique pour vous-même ou avec une capture d\'écran.Vous pourrez toujours vérifier votre identifiant et votre code PIN sur «Ma Page».
+    </string>
+    <string name="text.login.description">Vous pouvez connecter avec votre l\'adresse e-mail, compte SNS, Tabio ID/PIN. Pour les membres de Tabio JP Online Store, veuillez utliser votre l\'adresse e-mail.</string>
+    <string name="text.login.form.title">Se conncenter avec Tabio ID</string>
+    <string name="text.login.form.hint.id">Saisir votre Tabio ID ou l\'adresse e-mail.</string>
+    <string name="text.login.from.hint.pass">Saisir votre code PIN ou mot de passe</string>
+    <string name="text.login.form.sns.title">Se conncenter avec votre compte de SNS</string>
+    <string name="text.main.title">Adhésion</string>
+    <string name="text.main.title.totalPoint">Total des points : </string>
+    <string name="text.main.title.expiresPiece">Validité des PIECEs : </string>
+    <string name="text.main.title.expiresPoint">Validité des points : </string>
+    <string name="text.main.title.piece">  piece  </string>
+    <string name="text.main.condition">Avec %1$d PIECEs en plus, vous allez recevoir %2$d points.</string>
+    <string name="text.date.year">année</string>
+    <string name="text.date.month">mois</string>
+    <string name="text.date.day">jour</string>
+    <string name="text.main.description.description">Activer la notification en mode PUSH pour recevoir des coupons promotionnels</string>
+    <string name="text.main.help.title">A propos de la page Certificat de membre</string>
+    <string name="text.main.help.description.piece.1">1 PIECE</string>
+    <string name="text.main.help.description.piece.5">5 PIECEs</string>
+    <string name="text.main.help.description.piece.10">10 PIECEs</string>
+    <string name="text.main.help.description.1.1">Par achat de 1 JPY</string>
+    <string name="text.main.help.description.1.2">Mes Favoris</string>
+    <string name="text.main.help.description.1.4">Ecrire un commentaire</string>
+    <string name="text.main.help.description.2.1">Vous allez recevoir 100 POINTs suite à cumulation de 5000 PIECEs. Vous pouvez bénéficier 1 POINT = 1 JPY pour votre prochain achat dans l\'un de nos magasins.</string>
+    <string name="text.main.help.description.3.1">Cumulez vos PIECEs pour surclasser votre statut de membre. Vous allez recevoir des coupons spécials en fonction de votre niveau de statut. Vous pouvez vérifier vos coupons.</string>
+    <string name="text.coupon.title">Coupons</string>
+    <string name="text.coupon.barcode.title">Code-barre de membre</string>
+    <string name="text.coupon.type.all">Coupons valable dans tous nos magasins au Japon</string>
+    <string name="text.coupon.type.shop">Coupons exclusives aux magasins Tabio</string>
+    <string name="text.coupon.type.online">Coupons exclusives à Tabio Online Store</string>
+    <string name="text.coupon.detail.title">Plus d\'information sur le coupon</string>
+    <string name="text.coordinate.title">Look</string>
+    <string name="text.coordinate.store.title">Les looks proposé par %1$s</string>
+    <string name="text.scan.title">Scanner</string>
+    <string name="text.scan.description">Vérifiez que le code-barre apparaît bien centré dans votre écran.</string>
+    <string name="text.blog.title">Blog/Campagne au %1$s</string>
+    <string name="text.account.my.id">Tabio ID</string>
+    <string name="text.account.my.id.input">Entrez votre Tabio ID</string>
+    <string name="text.account.my.pin">Code PIN</string>
+    <string name="text.account.my.pin.input">Entrez votre code PIN</string>
+    <string name="text.account.my.idpin.send">Recevoir ID/PIN par e-mail.</string>
+    <string name="text.account.email.register">Enregistrement e-mail</string>
+    <string name="text.account.email.register.description.1">
+        L\'enregistrement de votre adrese e-mail dans Tabio App vous permet de transférer les informations de votre compte vers un nouvel appareil ou de réinstaller cette application.
+        Après la validation de vos informations, un e-mail de verification vous sera automatiquement envoyé.
+    </string>
+    <string name="text.account.email.register.description.2">
+        L\'enregistrement de votre adresse e-mail vous permet de vous connecter aussi à la boutique en ligne Tabio.com.
+        Pour changer votre e-mail ou votre mot de passe, allez sur «Ma Page» dans votre compte de la boutique en ligne Tabio.com.
+    </string>
+    <string name="text.account.email">E-mail</string>
+    <string name="text.account.email.input">Saisir l\'adresse e-mail</string>
+    <string name="text.account.password">Mot de passe</string>
+    <string name="text.account.password.input">L\'entrée du mot de passe</string>
+    <string name="text.account.email.input.done">Cette adresse électronique est déjà enregistrée.</string>
+    <string name="text.account.password.input.done">Le mot de passe enregistré</string>
+    <string name="text.mypage.title">My Page</string>
+    <string name="text.mypage.menu.title.favoriteItems">Mes favoris</string>
+    <string name="text.mypage.menu.title.favoriteCoordinates">Looks de mes favoris</string>
+    <string name="text.mypage.menu.title.favoriteStores">Magasins de mes favoris</string>
+    <string name="text.mypage.menu.title.reviews">Commentaire</string>
+    <string name="text.mypage.menu.title.pieceGetHistories">Historique de mes PIECEs acquis</string>
+    <string name="text.mypage.menu.title.pointGetHistories">Historique de mes points acquis</string>
+    <string name="text.histories.unit.piece">PIECEs</string>
+    <string name="text.histories.piece.total">Totale de vos PIECEs</string>
+    <string name="text.piece.invalid">sera expirer au %1$s</string>
+    <string name="text.histories.unit.point">Points</string>
+    <string name="text.histories.point.balance">Solde de vos points</string>
+    <string name="text.purchase.title.endText">acheté au </string>
+    <string name="text.item.order.status.1">Article acheté</string>
+    <string name="text.item.order.status.2">Commande acceptée</string>
+    <string name="text.item.order.status.3">Procédure d\'expédition</string>
+    <string name="text.item.order.status.4">Expédié</string>
+    <string name="text.item.order.status.5">Annulation</string>
+    <string name="text.item.order.status.6">Retour des articles</string>
+    <string name="text.checkin.title">Check-in</string>
+    <string name="text.checkin.menu.title.checkinableStores">Les magasins accessibles pour votre Check-in</string>
+    <string name="text.checkin.menu.title.nearbyStores">Magasins proche de vous</string>
+    <string name="text.checkin.menu.title.checkinHistories">Historique de mes Check-ins</string>
+    <string name="text.checkin.no.title">Aucun magasin disponible à check-in.</string>
+    <string name="text.checkin.no.description.1">Cumulez les PIECEs lors de Check-in aux magasins Tabio!</string>
+    <string name="text.checkin.no.description.2">Avec un check-in, vous gagnez 5 PIECEs.</string>
+    <string name="text.store.result.title">Résultat de recherche</string>
+    <string name="text.store.operation.date">Jours ouvrables</string>
+    <string name="text.store.operation.time">Horaires d\'ouverture</string>
+    <string name="text.store.tel">Tél</string>
+    <string name="text.coordinates.title">Liste des looks</string>
+    <string name="text.item.price.netoftax">(HT)</string>
+    <string name="text.order.item.price.netoftax">Prix des articles (excl. TVA):</string>
+    <string name="text.order.item.price.discount.netoftax">Remise (excl. TVA):</string>
+    <string name="text.order.item.usepoint.netoftax">Points utilisés (excl. TVA):</string>
+    <string name="text.order.item.subtotal.netoftax">Sous-Totale (excl. TVA):</string>
+    <string name="text.order.item.shippingFees.taxIncluded">Livraison et frais (incl. TVA):</string>
+    <string name="text.order.item.getPiece">PIECEs vous avez acquis:</string>
+    <string name="text.order.item.sellingPrice.taxIncluded">Prix (TTC)</string>
+    <string name="text.item.menu.title.instockStores">Magasin proche de moi pour cet article</string>
+    <string name="text.item.caution1">Les prix de Online Store s\'affichent sur cet application, qui peuvent être différent de prix au magasin.</string>
+    <string name="text.item.caution2">Le stock peut être épuisé contrairement à l\'indication. Veuillez contacter magasin que vous utilisez.</string>
+    <string name="text.item.magazine.published">Vu dans la presse</string>
+    <string name="text.item.title.description">Description</string>
+    <string name="text.item.title.material">Matières</string>
+    <string name="text.item.status.few">Stock limité</string>
+    <string name="text.item.status.hasStock">En stock</string>
+    <string name="text.item.status.outOfStock">En rupture de stock</string>
+    <string name="text.item.stock.noStore">Aucun magasin n\'a pas de stock actuellement.</string>
+    <string name="text.item.cart.add">L\'acticle est bien été ajourté au panier</string>
+    <string name="text.item.favorite.add">Ajouté à mes favoris</string>
+    <string name="text.item.restock.caution">※Pour recevoir l\'information sur la disponibilié, veuillez activer la notification PUSH.</string>
+    <string name="text.item.color">Couleur</string>
+    <string name="text.item.size">Taille</string>
+    <string name="text.item.quantity">Qté</string>
+    <string name="text.notification.title.push">Notifications</string>
+    <string name="text.notification.push.receive">Recevoir les notifications</string>
+    <string name="text.notification.push.description">
+        Vous pouvez recevoir des informations sur les promotions, les offres spéciales, l\'état de livraison ainsi que les réapprovisionnements des stocks avec la notification en mode PUSH.
+    </string>
+    <string name="text.notification.title.mail">Newsletter</string>
+    <string name="text.notification.mail.receive">Abonnement Newsletter</string>
+    <string name="text.notification.mail.description">Vous pouvez recevoir des informations sur les promotions et les offres spéciales via Newsletter.</string>
+    <string name="text.profile.nickname.limit">Jusqu\'à 12 caractères</string>
+    <string name="text.review.limit">Maximum de 800 caractères</string>
+    <string name="text.review.confirmed">Approuvé</string>
+    <string name="text.review.confirm.in">En cours de validation</string>
+    <string name="text.review.post.success">Votre commentaire a été enregistré.</string>
+    <string name="text.review.post.success.description">Votre commentaire s\'affichera après validation. Veuillez patienter.</string>
+    <string name="text.store.services.title.ladies">Femme</string>
+    <string name="text.store.services.title.men">Homme</string>
+    <string name="text.store.services.title.kids">Enfant</string>
+    <string name="text.store.services.title.embroidery">Broderie</string>
+    <string name="text.store.services.title.printing">Impression</string>
+    <string name="text.store.services.title.nonskid">Antidérapant</string>
+    <string name="text.store.services.title.cleat">Antidérapant</string>
+    <string name="text.store.services.title.chinaUnionpay">UnionPay</string>
+    <string name="text.store.services.title.dutyFree">Détaxe</string>
+    <string name="text.store.services.title.membershipPiece">PIECEs</string>
+    <string name="text.store.services.title.membershipCert">Points</string>
+    <string name="text.store.business.title.weekday">Lun.-Ven.</string>
+    <string name="text.store.business.title.holiday">Sam. Dim. Férié</string>
+    <string name="text.store.menu.title.access">Accès</string>
+    <string name="text.item.type.socks">Chaussettes</string>
+    <string name="text.item.type.footsies">Footsies</string>
+    <string name="text.item.type.sandalSocks">Footsies sandal</string>
+    <string name="text.item.type.tights">Collants</string>
+    <string name="text.item.type.stockings">Collants fins</string>
+    <string name="text.item.type.leggings">Leggings</string>
+    <string name="text.item.type.stirrupLeggings">Leggings fuseaux</string>
+    <string name="text.item.type.legWarmers">Jambières</string>
+    <string name="text.search.title">Critères recherche</string>
+    <string name="text.search.condition.title">Affiner les critères de recherche</string>
+    <string name="text.search.count">articles</string>
+    <string name="text.search.filtering">en cours...</string>
+    <string name="text.search.sort">Trier par</string>
+    <string name="text.search.sort.new">Date de sortie</string>
+    <string name="text.search.sort.popular">Popularité</string>
+    <string name="text.search.sort.price.row">Prix par ordre croissant</string>
+    <string name="text.search.sort.price.high">Prix par ordre décroissant</string>
+    <string name="text.search.menu.freeword">Rechercher</string>
+    <string name="text.search.menu.prefectures">Préfecture</string>
+    <string name="text.search.menu.brand">Gamme</string>
+    <string name="text.search.menu.itemServices">Produits et services</string>
+    <string name="text.search.menu.searchByPrefectures">Rechercher par prefecture</string>
+    <string name="text.search.menu.searchByBrands">Rechercher par gamme</string>
+    <string name="text.search.menu.searchByServices">Rechercher par produits et services</string>
+    <string name="text.search.menu.gender">Sexe</string>
+    <string name="text.search.menu.type">Type de style</string>
+    <string name="text.search.menu.length">Longeur</string>
+    <string name="text.search.menu.size">Pointure</string>
+    <string name="text.search.menu.toeType">Style d\'orteils</string>
+    <string name="text.search.menu.function">Fonction</string>
+    <string name="text.search.menu.color">Couleur</string>
+    <string name="text.search.menu.pattern">Motif</string>
+    <string name="text.search.menu.price">Prix</string>
+    <string name="text.store.brand.kutsushitaya">Kutsushitaya</string>
+    <string name="text.store.brand.tabio">Tabio</string>
+    <string name="text.store.brand.tabio_men">Tabio MEN</string>
+    <string name="text.item.length.sneakersSocks">Chaussettes courtes</string>
+    <string name="text.item.length.shortAnkleLengthSocks">Socquettes</string>
+    <string name="text.item.length.crewSocks">Mi-chaussettes</string>
+    <string name="text.item.length.highCutHighSocks">Chaussettes hautes 3/4</string>
+    <string name="text.item.length.kneeHighSocks">Chaussettes Mi-bas</string>
+    <string name="text.item.size.0709">7-9cm (naissance)</string>
+    <string name="text.item.size.1012">10-12cm (6-12 mois)</string>
+    <string name="text.item.size.1315">13-15cm (1-3 ans)</string>
+    <string name="text.item.size.1618">16-18cm (G.4-6 ans/F.4-7 ans)</string>
+    <string name="text.item.size.1921">19-21cm (G.7-10 ans/F.8-10 ans)</string>
+    <string name="text.item.size.2223">22.0cm~23.0cm</string>
+    <string name="text.item.size.2324">23.0cm~24.0cm</string>
+    <string name="text.item.size.2425">24.0cm~25.0cm</string>
+    <string name="text.item.size.2526">25.0cm~26.0cm</string>
+    <string name="text.item.size.2627">26.0cm~27.0cm</string>
+    <string name="text.item.size.2728">27.0cm~28.0cm</string>
+    <string name="text.item.size.2829">28.0cm~29.0cm</string>
+    <string name="text.item.toe.type.toeSocks">5 orteils</string>
+    <string name="text.item.toe.type.tabiSocks">Tabi</string>
+    <string name="text.item.material.100Cotton">100% coton</string>
+    <string name="text.item.material.silk">Soie</string>
+    <string name="text.item.material.linen">Lin</string>
+    <string name="text.item.material.wool">Laine</string>
+    <string name="text.item.material.cupra">Cupro</string>
+    <string name="text.item.material.cashmere">Cachemire</string>
+    <string name="text.item.material.angora">Angora</string>
+    <string name="text.item.material.organicCotton">Coton Bio</string>
+    <string name="text.item.function.warm">Réchauffant</string>
+    <string name="text.item.function.compression">Contention</string>
+    <string name="text.item.function.keepDryDeodorant">Anti-humidité/Déodorante</string>
+    <string name="text.item.function.forDrySensitiveSkin">Pour la peau sèche et sensible</string>
+    <string name="text.item.function.forTiredLegs">Anti-fatigue</string>
+    <string name="text.item.function.nonElasticSoftTop">Sans élastique/bord lâche</string>
+    <string name="text.item.function.sport">Sport</string>
+    <string name="text.item.function.forBetterSleep">Pour un meilleur sommeil</string>
+    <string name="text.item.color.white">Blanc</string>
+    <string name="text.item.color.black">Noir</string>
+    <string name="text.item.color.grey">Gris</string>
+    <string name="text.item.color.beige">Beige</string>
+    <string name="text.item.color.brown">Marron</string>
+    <string name="text.item.color.pink">Rose</string>
+    <string name="text.item.color.red">Rouge</string>
+    <string name="text.item.color.orange">Orange</string>
+    <string name="text.item.color.yellow">Jaune</string>
+    <string name="text.item.color.green">Vert</string>
+    <string name="text.item.color.blue">Bleu</string>
+    <string name="text.item.color.navy">Bleu marine</string>
+    <string name="text.item.color.purple">Violet</string>
+    <string name="text.item.pattern.plain">Unie</string>
+    <string name="text.item.pattern.glittery">Lamé</string>
+    <string name="text.item.pattern.ribbed">Côtes</string>
+    <string name="text.item.pattern.borders">Rayures</string>
+    <string name="text.item.pattern.argyleDiamonds">Losanges</string>
+    <string name="text.item.pattern.dotsPolkaDots">Pois</string>
+    <string name="text.item.pattern.stars">Etoiles</string>
+    <string name="text.item.pattern.floral">Fleurs</string>
+    <string name="text.item.pattern.stripes">Rayures veticales</string>
+    <string name="text.item.pattern.checks">Carreaux</string>
+    <string name="text.item.pattern.ribbons">Nœuds</string>
+    <string name="text.item.pattern.hearts">Cœurs</string>
+    <string name="text.item.pattern.jacquard">Jacquard</string>
+    <string name="text.item.pattern.meshRaschelLace">Résile/Raschel/Dentelle</string>
+    <string name="text.item.brand.tabioSports">TABIO SPORTS</string>
+    <string name="text.item.brand.tabioLegLabo">TABIO LEG LABO</string>
+    <string name="text.item.brand.tabioLuxe">Tabio LUXE</string>
+    <string name="text.item.brand.tabioArts">TABIO ARTS</string>
+    <string name="text.item.price.500">jusqu\'à 500 yens</string>
+    <string name="text.item.price.5001000">500-1000 yens</string>
+    <string name="text.item.price.10001500">1000-1500 yens</string>
+    <string name="text.item.price.15002000">1500-2000 yens</string>
+    <string name="text.item.price.20002500">2000-2500 yens</string>
+    <string name="text.item.price.25003000">2500-3000 yens</string>
+    <string name="text.item.price.30003500">3000-3500 yens</string>
+    <string name="text.item.price.35004000">3500-4000 yens</string>
+    <string name="text.item.price.40004500">4000-4500 yens</string>
+    <string name="text.item.price.45005000">4500-5000 yens</string>
+    <string name="text.item.price.5000">plus de 5000 yens</string>
+    <string-array name="prefectures">
+        <item>Hokkaido</item>
+        <item>Aomori</item>
+        <item>Iwate</item>
+        <item>Miyagi</item>
+        <item>Akita</item>
+        <item>Yamagata</item>
+        <item>Fukushima</item>
+        <item>Ibaraki</item>
+        <item>Tochigi</item>
+        <item>Gunma</item>
+        <item>Saitama</item>
+        <item>Chiba</item>
+        <item>Tokyo</item>
+        <item>Kanagawa</item>
+        <item>Niigata</item>
+        <item>Toyama</item>
+        <item>Ishikawa</item>
+        <item>Fukui</item>
+        <item>Yamanashi</item>
+        <item>Nagano</item>
+        <item>Gifu</item>
+        <item>Shizuoka</item>
+        <item>Aichi</item>
+        <item>Mie</item>
+        <item>Shiga</item>
+        <item>Kyoto</item>
+        <item>Osaka</item>
+        <item>Hyogo</item>
+        <item>Nara</item>
+        <item>Wakayama</item>
+        <item>Tottori</item>
+        <item>Shimane</item>
+        <item>Okayama</item>
+        <item>Hiroshima</item>
+        <item>Yamaguchi</item>
+        <item>Tokushima</item>
+        <item>Kagawa</item>
+        <item>Ehime</item>
+        <item>Kochi</item>
+        <item>Fukuoka</item>
+        <item>Saga</item>
+        <item>Nagasaki</item>
+        <item>Kumamoto</item>
+        <item>Oita</item>
+        <item>Miyazaki</item>
+        <item>Kagoshima</item>
+        <item>Okinawa</item>
+    </string-array>
+    <string name="text.faq.howto">Guide d\'utilisation de Tabio App</string>
+    <string name="text.faq.title">A propos de Tabio App</string>
+    <string name="text.faq.title.1">A propos de produits</string>
+    <string name="text.faq.title.2">A propos des membres Tabio</string>
+    <string name="text.faq.title.3">A propos de l\'application Tabio</string>
+    <string name="text.faq.title.4">A propos de l\'utilisation des magasins</string>
+    <string name="text.faq.title.5">A propos de l\'utilisation de la boutique en ligne Tabio</string>
+    <string name="text.faq.title.6">Défauts, problèmes</string>
+    <string name="text.faq.title.7">Clôture de compte</string>
+    <string name="text.faq.title.8">Information de l\'entreprise</string>
+    <string name="text.faq.title.9">Réglages</string>
+    <string name="text.preference.title.accounts">Créer un compte</string>
+    <string name="text.preference.title.savetabioidpin.save">Sauvegarder Tabio ID/Code PIN par e-mail</string>
+    <string name="text.preference.title.login.tabio">Se connecter: Tabio ID/Code PIN</string>
+    <string name="text.preference.title.login.facebook">Lier à un compte Facebook</string>
+    <string name="text.preference.title.login2.facebook">Connexion avec un compte Facebook</string>
+    <string name="text.preference.title.login.twitter">Lier à un compte Twitter</string>
+    <string name="text.preference.title.login2.twitter">Connexion avec un compte Twitter</string>
+    <string name="text.preference.title.login.email">Enregistrer l\'adresse e-mail / mot de passe</string>
+    <string name="text.preference.title.login2.email">Se connecter: E-mail/Mot de passe</string>
+    <string name="text.preference.login.caution">Suite à cet enregistrement, vous pourrez rétablir les données originales au moment de changement de modèle ou de réinstallation.</string>
+    <string name="text.preference.login.caution2">Suite à la connexion, vous pouvez restaurer les données votre compte.</string>
+    <string name="text.preference.title.online">Intégrer vos informations personnels de votre compte sur Tabio.com et Tabio App.</string>
+    <string name="text.preference.title.online2">Intégrer avec les informations membre de Tabio Online Store</string>
+    <string name="text.preference.title.login.online">Conncexion Tabio Online Store</string>
+    <string name="text.preference.title.online.caution">Si vous avez le compte sur Tabio.com, vous pouvez intégrér vos informations personnels dans Tabio App.</string>
+    <string name="text.preference.title.settings">Configuration</string>
+    <string name="text.preference.title.settings.notification">Newsletter et la notification en mode PUSH</string>
+    <string name="text.preference.title.settings.language">Langue</string>
+    <string name="text.preference.title.help.terms">T &amp; C on Membership / Online Purchases</string>
+    <string name="text.preference.title.help.security">Politique de confidentialité</string>
+    <string name="text.preference.title.help.commercialRow">Loi sur les transactions commerciales spécifiées</string>
+    <string name="text.preference.title.help.faq">FAQ/Nous contacter</string>
+    <string name="text.preference.savetabioidpin.title">Votre Tabio ID/Code PIN</string>
+    <string name="text.account.profile.title.nickname">Surnom</string>
+    <string name="text.account.profile.title.birthday">Né(e) le</string>
+    <string name="text.account.profile.title.nickname.placeholder">Saisir votre surnom</string>
+    <string name="text.account.profile.title.birthday.placeholder">Saisir votre date de naissance</string>
+    <string name="text.account.profile.title.gender.placeholder">Selectionner votre sexe</string>
+    <string name="text.account.profile.dialog.title.birthday">Choisissez votre date de naissance</string>
+    <string name="text.account.connect.title">Lier vos comptes</string>
+    <string name="text.account.login.facebook.success">Compte lié sur Facebook.</string>
+    <string name="text.account.login.facebook.fail">Connexion échouée sur Facebook.</string>
+    <string name="text.account.login.twitter.success">Compte lié sur Twitter.</string>
+    <string name="text.account.login.twitter.fail">Connexion échouée sur Twitter.</string>
+    <string name="text.account.login.email.success">Votre adresse e-mail et mot de passe ont bien été liés.</string>
+    <string name="text.account.login.email.fail">Connexion échouée sur l\'adresse électrique et le mot de passe.</string>
+    <string name="text.account.login.success">Connexion réussie.</string>
+    <string name="text.account.login.fail">Connexion échouée.</string>
+    <string name="text.account.migrate.caution">
+        Vous pouvez restaurer vos données, vos points PIECEs et l\'historique de vos achats en vous connectant à votre compte lors de la réinstallation de l\'application ou lors du changement de votre appareil.
+        Veuillez noter que votre identifiant, votre code PIN, votre adresse e-mail, votre date d\'anniversaire ainsi que votre surnom ne seront pas restaurés.
+    </string>
+    <string name="text.review.create.fail.nickname">Surnom n\'est pas entré.</string>
+    <string name="text.review.create.fail.review">Révision n\'est pas entrée.</string>
+    <string name="text.account.language.change">Voulez-vous changer de langue?</string>
+    <string name="text.account.language.ja">Japonais</string>
+    <string name="text.account.language.en">Anglais</string>
+    <string name="text.account.language.fr">Français</string>
+    <string name="text.account.language.zh">Chinois</string>
+    <string name="text.account.language.ko">Coréen</string>
+    <string name="text.date.weekday.sunday.short">dimanche</string>
+    <string name="text.date.weekday.monday.short">lundi</string>
+    <string name="text.date.weekday.tuesday.short">mardi</string>
+    <string name="text.date.weekday.wednesday.short">mercredi</string>
+    <string name="text.date.weekday.thursday.short">jeudi</string>
+    <string name="text.date.weekday.friday.short">vendredi</string>
+    <string name="text.date.weekday.saturday.short">samedi</string>
+    <string name="text.item.restock.success">Votre demande d\'approvisionnement a été enregistrée.</string>
+    <string name="text.gender.man">Homme</string>
+    <string name="text.gender.woman">Femme</string>
+    <string name="text.account.edit.success">Le compte a été modifié.</string>
+    <string name="text.email.send.title">[Important] l\'Identifiant Tabio et le Code PIN</string>
+    <string name="text.email.send.body">
+        Merci d\'avoir choisi nos Kutsushitaya, Tabio et Tabio MEN.\n
+        Nous vous informons de votre identifiant Tabio et votre code PIN de l\'application Tabio.\n
+        Identifiant Tabio:%1$s\n
+        Code PIN:%2$s\n\n
+        Suite à la connexion, vous pouvez restaurer vos données, vos points PIECEs et l\'historique de vos achats en vous connectant à votre compte lors de la réinstallation de l\'application ou lors du changement de votre appareil.\n
+        Veuillez noter que votre identifiant Tabio et votre code PIN ne peuvent pas être rééditlé.
+        Veuillez les garder précieusement.\n
+        Nous vous remercions encore une fois d\'avoir choisi nos produits et de la confiance que vous accordez à notre service.\n\n
+        Tabio Corporation
+    </string>
+    <string name="mypage.popup.caption">
+        Votre ID et Code PIN sont très importants. Veuillez bien les garder en les envoyant sur votre e-mail ou en capturant l\'ecran, etc.
+        Vous pouvez toujours veriffier votre ID et Code PIN sur My Page.
+    </string>
+    <string name="error.suspend">Votre compte est actuellement suspendu. Vous ne pouvez pas utiliser vos point ni vos PIECE. Une notification vous sera adressée dès que votre compte sera réactivé.</string>
+    <string name="text.location.authorize.deny">L\'acquisition d\'un emplacement n\'est pas autorisée. Autorisez-la dans l\'écran de réglage.</string>
+    <string name="text.account.email.validation">L\'adresse e-mail que vous avez entrée est invalide</string>
+    <string name="text.account.password.validation">Votre mot de passe doit contenir entre 6 et 50 caractères</string>
+    <string name="text.rankup.get">%1$s POINTS gagnés.</string>
+    <string name="text.rankup.total">TOTAL DES POINTS %1$POINTS</string>
+    <string name="text.tax">taxe:</string>
+    <string name="text.order.item.total.taxIncluded">Totale (incl. TVA)</string>
+    <string name="text.coordinate.description.description1">Gagnez des PIECEs en ajoutant ce style à vos favoris!</string>
+    <string name="text.coordinate.description.description2">Scanner le code-barre pour regarder le look</string>
+    <string name="text.checkin.description.description">Activez le GPS et Check-in aux magasins Tabio!</string>
+    <string name="text.error.account.migrate">Erreur de saisie.\nVeuillez vérifier tous les champs de saisie.</string>
+    <string name="text.no.store.search">Aucun magasin ne correspond à votre recherche.</string>
+    <string name="text.no.item.search">Aucun article ne correspond à votre recherche.</string>
+    <string name="text.no.item.search.description">Veuillez réessayer vos recherches</string>
+    <string name="text.camera.authorize.description">"Tabio App" n\'est pas autorisé à l\'appareil photo. Veuillez configurer le paramètre d\'accès.</string>
+    <string name="text.coordinate.title.new">Nouveaux looks</string>
+    <string name="text.account.push.change">La notification en mode PUSH été modifiée.</string>
+    <string name="text.account.mailmagazine.change">Votre abonnement de newsletter été modifiée.</string>
+    <string name="text.account.update.force.title">Votre App a mise à jour.</string>
+    <string name="text.account.update.force.message">Une nouvelle mise à jour est disponible.</string>
+    <string name="text.account.update.force.button.positive">Télécharger la mise à jour</string>
+    <string name="button.update.password">Modifier le mot de passe</string>
+    <string name="text.account.login.caution">Si vous avez déjà le compte, merci de vous connecter avec votre compte Facebook ou Twitter.</string>
+    <string name="text.account.login.facebook.fail2">La connexion avec votre compte Facebook n\' a pas réussi.</string>
+    <string name="text.account.login.twitter.fail2">La connexion avec votre compte Twitter n\' a pas réussi.</string>
+    <string name="text.account.setting.not.yet">Non défini</string>
+    <string name="text.coupon.caution">※Coupon non cumulable acec toute autre offre.</string>
+    <string name="text.actionsheet.camera">Appareil photo</string>
+    <string name="text.actionsheet.cameraroll">Album</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Si vous avez déjà le compte, merci de vous connecter avec votre compte Facebook ou Twitter.</string>
+</resources>

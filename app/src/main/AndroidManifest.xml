@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.tabio.tabioapp" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="23"
+        tools:overrideLibrary="com.facebook, android.support.customtabs" /> <!--com.facebook,-->
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <permission
+        android:name="${applicationId}.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="${applicationId}.permission.C2D_MESSAGE" />
+
+    <application
+        android:name=".AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="${appName}"
+        android:largeHeap="true"
+        android:theme="@style/Theme.Tabio"
+        tools:replace="icon, label" >
+        <meta-data
+            android:name="igaworks_app_key"
+            android:value="${adbrixApiKey}" />
+        <meta-data
+            android:name="igaworks_hash_key"
+            android:value="${adbrixHashKey}" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="igaworks_market_info"
+            android:value="google" />
+
+        <receiver
+            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.igaworks.IgawReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <!--<service android:name=".gps.GpsService" />-->
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="${fabricApiKey}" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="${googleApiKey}" />
+
+        <service
+            android:name="com.google.android.gms.analytics.AnalyticsService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <!-- GCM -->
+        <receiver
+            android:name="com.google.android.gms.gcm.GcmReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <category android:name="${applicationId}" />
+            </intent-filter>
+        </receiver>
+        <service
+            android:name=".GcmListenerService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".InstanceIDListenerService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.iid.InstanceID" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".GcmRegistrationService"
+            android:exported="false" />
+
+        <activity
+            android:name=".top.TopActivity"
+            android:launchMode="singleInstance" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="${scheme}" />
+                <!-- <data android:scheme="${scheme}" -->
+                <!-- android:host="${hostname}" /> -->
+            </intent-filter>
+        </activity>
+        <activity android:name=".tutorial.TutorialActivity" />
+        <activity
+            android:name=".main.MainActivity"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".login.LoginActivity"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".terms.TermsAgreementActivity"
+            android:theme="@style/Theme.Tabio" />
+        <activity android:name=".web.WebActivity" />
+        <activity
+            android:name=".about.AboutAccountActivity"
+            android:theme="@style/Theme.Tabio" />
+        <activity android:name=".coordinate.CoordinatesCollectionActivity" />
+        <activity android:name=".checkin.CheckinActivity" />
+        <activity android:name=".item.ItemsActivity" />
+        <activity android:name=".me.MyActivity" />
+        <activity android:name=".item.SwipeableItemsActivity" />
+        <activity
+            android:name=".item.ItemFilterActivity"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity android:name=".me.AccountEditActivity" />
+        <activity android:name=".preference.PreferencesActivity" />
+        <activity android:name=".preference.NotificationSettingsActivity" />
+        <activity android:name=".preference.LanguageSettingsActivity" />
+        <activity android:name=".preference.FaqActivity" />
+        <activity android:name=".store.StoreActivity" />
+        <activity
+            android:name=".store.StoreFilterActivity"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity android:name=".DebugActivity" />
+        <activity android:name=".help.ScreenHelpActivity" />
+        <activity android:name=".coupon.CouponListActivity" />
+        <activity android:name=".scan.ScannerActivity" />
+        <activity android:name=".coordinate.VerticalCoordinatesActivity" />
+        <activity
+            tools:replace="android:theme"
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="${appName}"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity android:name=".checkin.MapActivity" />
+        <activity android:name=".store.StoresActivity" />
+        <activity android:name=".blog.BlogsActivity" />
+        <activity android:name=".item.review.ReviewsActivity" />
+        <activity android:name=".item.review.ReviewActivity" />
+        <activity android:name=".item.review.ReviewCreateActivity" />
+        <activity android:name=".coordinate.CoordinatesActivity" />
+        <activity android:name=".me.MyIdActivity" />
+        <activity android:name=".preference.EmailPasswordRegisterActivity" />
+        <activity android:name=".preference.EmailPasswordUpdateActivity" />
+        <activity android:name=".preference.MigrationActivity" />
+        <activity android:name=".order.OrderHistoryActivity" />
+        <activity android:name=".MaintenanceActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whiteSmoke"
+    tools:context="com.tabio.tabioapp.coordinate.VerticalCoordinatesActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/coordinates_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp"
+        android:background="@color/whiteSmoke"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        />
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/toolbar_actionbar" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/network_progress_view" />
+    <include layout="@layout/no_data" />
+
+</android.support.design.widget.CoordinatorLayout>

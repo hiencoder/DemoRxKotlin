@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="debug">DEBUG</string>
+    <string name="error.text.maintenance">系统正在维修。还请稍后再访问。</string>
+    <string name="error.text.undefined">发生了不明的错误</string>
+    <string name="error.text.connection">不能连接网络。请确认连接环境后，再次尝试。</string>
+    <string name="error">错误</string>
+    <string name="error.text.input.id">请输入邮件地址或Tabio ID</string>
+    <string name="error.text.input.tabioid">请输入Tabio ID</string>
+    <string name="error.text.input.pin">请输入PIN码</string>
+    <string name="error.text.input.email">输入邮箱地址。</string>
+    <string name="error.text.input.password">请输入密码或PIN码</string>
+    <string name="error.text.input.password2">请输入密码</string>
+    <string name="error.text.location.toolong">获取当前地址信息，需要一些时间。还请稍等。</string>
+    <string name="error.text.nodata">没有%1$s。</string>
+    <string name="text.item">商品</string>
+    <string name="text.items2">商品</string>
+    <string name="text.store">店铺</string>
+    <string name="text.coordinate">搭配</string>
+    <string name="text.review">商品评价</string>
+    <string name="text.readHistory">我的足迹</string>
+    <string name="text.orderHistory">我的购买录</string>
+    <string name="text.news">系统通知</string>
+    <string name="text.topics">通知栏</string>
+    <string name="button.start">开始</string>
+    <string name="button.first">首次使用者</string>
+    <string name="button.login">登录</string>
+    <string name="button.login.first">换手机・网购会员</string>
+    <string name="button.accept">同意</string>
+    <string name="button.resetPassword">忘记密码的顾客</string>
+    <string name="button.aboutAccount">Tabio ID, PIN码是什么?</string>
+    <string name="button.editAccount">编辑帐户信息</string>
+    <string name="button.purchaseNow">现在购买</string>
+    <string name="button.restockRequest">请求再进货</string>
+    <string name="button.restockRequested">已经申请再进货</string>
+    <string name="button.restockRequested2">已经请求</string>
+    <string name="button.soldout">不能购买</string>
+    <string name="button.map">地图</string>
+    <string name="button.phone">打电话</string>
+    <string name="button.favorite">收藏</string>
+    <string name="button.more">详细内容</string>
+    <string name="button.search">搜索</string>
+    <string name="button.help">帮助</string>
+    <string name="button.newCoupon">新优惠卷</string>
+    <string name="button.cart">购物篮</string>
+    <string name="button.cart.check">看购物篮</string>
+    <string name="button.back">回去</string>
+    <string name="button.cover">封面图片</string>
+    <string name="button.edit">编辑</string>
+    <string name="button.reset">取消</string>
+    <string name="button.connectFacebook">绑定Facebook</string>
+    <string name="button.connectTwitter">绑定Twitter</string>
+    <string name="button.registerEmailPassword">注册邮件地址和密码</string>
+    <string name="button.settings">设置</string>
+    <string name="button.close">关闭</string>
+    <string name="button.detail">了解详细信息</string>
+    <string name="button.save">保存</string>
+    <string name="button.save.id.pin">用邮件保存ID和PIN</string>
+    <string name="button.review.create">写商品评价</string>
+    <string name="button.send">发送</string>
+    <string name="button.push.desc">通知的详细设定还请确认这里</string>
+    <string name="button.ok">ok</string>
+    <string name="button.register">注册</string>
+    <string name="button.update.emailpassword">更改邮件地址和密码</string>
+    <string name="button.contact">询问</string>
+    <string name="button.returned">退换商品</string>
+    <string name="button.cancel">取消</string>
+    <string name="button.delivery.status">确认物流情况</string>
+    <string name="text.input.required">必须</string>
+    <string name="text.tutorial.1">随时、随地、可使用、赚积分。Tabio App</string>
+    <string name="text.tutorial.2">会员证以外,可以购物,标记店铺。还可以看大家的搭配！</string>
+    <string name="text.tutorial.3">有各种方法可以积累“pease”，积累Pease就可以获得可购物买的积分！</string>
+    <string name="text.tutorial.4">获得袜子片提高会员的等级！根据等级的级别，能够得到Tabio的礼品劵！</string>
+    <string name="text.terms.title">会员协议・通信销售协议</string>
+    <string name="text.about.description">Tabio ID和PIN码是自动发送给Tabio软件会员的会员号码和密码。也可以在我的收藏确认。</string>
+    <string name="text.about.example.title">Tabio ID / PIN码的例子</string>
+    <string name="text.about.example.tabio.id">Tabio ID : 1234567890123</string>
+    <string name="text.about.example.tabio.pin">PIN code : 1234</string>
+    <string name="text.about.caution">
+        Tabio ID和PIN码作为登录ID和密码。本ID和PIN码不能再次生成。
+        ID和PIN码请通过邮件发给自己或抓图妥善管理。
+        另外ID和PIN码可以在“我的主页”内\n随时确认。
+    </string>
+    <string name="text.login.description">可以用住册的邮箱地址,SNS,Tabio ID,PIN码登录。Tabio官网的会员，可以使用注册会员时的邮箱地址。</string>
+    <string name="text.login.form.title">使用Tabio ID 登录</string>
+    <string name="text.login.form.hint.id">输入Tabio ID或邮箱地址</string>
+    <string name="text.login.from.hint.pass">输入PIN码或密码</string>
+    <string name="text.login.form.sns.title">使用SNS帐号登录</string>
+    <string name="text.main.title">会员证</string>
+    <string name="text.main.title.totalPoint">总分数 : </string>
+    <string name="text.main.title.expiresPiece">袜子片的有限期限 : </string>
+    <string name="text.main.title.expiresPoint">累积分使用期限 : </string>
+    <string name="text.main.title.piece">  piece  </string>
+    <string name="text.main.condition">剩下的%1$d袜子片%2$d可换成累积分</string>
+    <string name="text.date.year">年</string>
+    <string name="text.date.month">月</string>
+    <string name="text.date.day">日</string>
+    <string name="text.main.description.description">把消息通知设置为ON，获取优惠的折扣劵。</string>
+    <string name="text.main.help.title">有关会员证画面</string>
+    <string name="text.main.help.description.piece.1">1袜子片</string>
+    <string name="text.main.help.description.piece.5">5袜子片</string>
+    <string name="text.main.help.description.piece.10">10袜子片</string>
+    <string name="text.main.help.description.1.1">购买商品１JPY</string>
+    <string name="text.main.help.description.1.2">喜爱商品・店铺・搭配</string>
+    <string name="text.main.help.description.1.4">投稿评价</string>
+    <string name="text.main.help.description.2.1">积累5000袜子片,可换100累计分。累计分1分可当1JPY使用.。也可以购买商品。</string>
+    <string name="text.main.help.description.3.1">累积分数会升级。根据等级，可获优惠劵。优惠劵的内容请确认此处。</string>
+    <string name="text.coupon.title">折扣劵</string>
+    <string name="text.coupon.barcode.title">会员代码</string>
+    <string name="text.coupon.type.all">会员代码</string>
+    <string name="text.coupon.type.shop">在实际店能够使用的折扣劵</string>
+    <string name="text.coupon.type.online">网店限定的折扣劵</string>
+    <string name="text.coupon.detail.title">优惠卷详细信息</string>
+    <string name="text.coordinate.title">搭配</string>
+    <string name="text.coordinate.store.title">%1$s的搭配</string>
+    <string name="text.scan.title">扫描</string>
+    <string name="text.scan.description">请把代码放在方框里扫描。</string>
+    <string name="text.blog.title">%1$s博客／店铺活动</string>
+    <string name="text.account.my.id">Tabio ID</string>
+    <string name="text.account.my.id.input">输入Tabio ID</string>
+    <string name="text.account.my.pin">PIN码</string>
+    <string name="text.account.my.pin.input">输入PIN码</string>
+    <string name="text.account.my.idpin.send">ID和PIN码用电子邮件发送</string>
+    <string name="text.account.email.register">注册邮件地址</string>
+    <string name="text.account.email.register.description.1">
+        使用邮箱地址注册Tabio的帐号。手机变更，再下载时，使用注册的信息登录，可以继续使用以前的信息。
+        按 “登录”后,会收到自动确认邮件。
+    </string>
+    <string name="text.account.email.register.description.2">
+        在这里注册邮件地址的话，在\nTabio网上商店也可以登录。
+        更改邮件地址和密码的时候\n请在Tabio在线商店的我的主页更改。
+    </string>
+    <string name="text.account.email">邮箱地址</string>
+    <string name="text.account.email.input">输入邮箱地址</string>
+    <string name="text.account.password">密码</string>
+    <string name="text.account.password.input">输入密码</string>
+    <string name="text.account.email.input.done">邮件地址已经注册了。</string>
+    <string name="text.account.password.input.done">注册密码</string>
+    <string name="text.mypage.title">我的收藏</string>
+    <string name="text.mypage.menu.title.favoriteItems">关注商品</string>
+    <string name="text.mypage.menu.title.favoriteCoordinates">喜爱搭配</string>
+    <string name="text.mypage.menu.title.favoriteStores">喜爱店铺</string>
+    <string name="text.mypage.menu.title.reviews">评价</string>
+    <string name="text.mypage.menu.title.pieceGetHistories">过去获取袜子片的记录</string>
+    <string name="text.mypage.menu.title.pointGetHistories">累计分记录</string>
+    <string name="text.histories.unit.piece">piece</string>
+    <string name="text.histories.piece.total">积累袜子片数</string>
+    <string name="text.piece.invalid">在%1$s失效</string>
+    <string name="text.histories.unit.point">累积分</string>
+    <string name="text.histories.point.balance">剩余积分</string>
+    <string name="text.purchase.title.endText">在 购买 </string>
+    <string name="text.item.order.status.1">已购买</string>
+    <string name="text.item.order.status.2">订单完毕</string>
+    <string name="text.item.order.status.3">等待邮寄</string>
+    <string name="text.item.order.status.4">已经寄出</string>
+    <string name="text.item.order.status.5">取消</string>
+    <string name="text.item.order.status.6">退货</string>
+    <string name="text.checkin.title">标记位置</string>
+    <string name="text.checkin.menu.title.checkinableStores">标记附近的店铺</string>
+    <string name="text.checkin.menu.title.nearbyStores">附近的店铺</string>
+    <string name="text.checkin.menu.title.checkinHistories">最近标记店铺</string>
+    <string name="text.checkin.no.title">没有可以标记的店铺。</string>
+    <string name="text.checkin.no.description.1">标记店铺可积累袜子片。</string>
+    <string name="text.checkin.no.description.2">1次的标记,可获5个袜子片。</string>
+    <string name="text.store.result.title">查询结果</string>
+    <string name="text.store.operation.date">营业日</string>
+    <string name="text.store.operation.time">营业时间</string>
+    <string name="text.store.tel">电话</string>
+    <string name="text.coordinates.title">搭配一览</string>
+    <string name="text.item.price.netoftax">（不含税）</string>
+    <string name="text.order.item.price.netoftax">商品价(不含税):</string>
+    <string name="text.order.item.price.discount.netoftax">折扣(不含税):</string>
+    <string name="text.order.item.usepoint.netoftax">使用累积分:</string>
+    <string name="text.order.item.subtotal.netoftax">小计(不含税):</string>
+    <string name="text.order.item.shippingFees.taxIncluded">邮费 手续费:</string>
+    <string name="text.order.item.getPiece">获得的袜子片:</string>
+    <string name="text.order.item.sellingPrice.taxIncluded">销售价格（含税）</string>
+    <string name="text.item.menu.title.instockStores">附近有库存的店铺</string>
+    <string name="text.item.caution1">显示的价钱是网店的零售价钱。根据店铺的活动,零售价会不同。</string>
+    <string name="text.item.caution2">画面显示商品有库存的时候会根据店铺的一些原因没有库存。准确的信息还请向店铺咨询。</string>
+    <string name="text.item.magazine.published">刊登杂志</string>
+    <string name="text.item.title.description">商品说明</string>
+    <string name="text.item.title.material">面料</string>
+    <string name="text.item.status.few">剩余不多</string>
+    <string name="text.item.status.hasStock">有库存</string>
+    <string name="text.item.status.outOfStock">没有库存</string>
+    <string name="text.item.stock.noStore">没有现在经销的店</string>
+    <string name="text.item.cart.add">增加购物篮里的商品</string>
+    <string name="text.item.favorite.add">收藏到喜爱里。</string>
+    <string name="text.item.restock.caution">※通知设定为OFF的时候,接受不到再进货通知。</string>
+    <string name="text.item.color">颜色</string>
+    <string name="text.item.size">尺寸</string>
+    <string name="text.item.quantity">数量</string>
+    <string name="text.notification.title.push">通知</string>
+    <string name="text.notification.push.receive">接受通知</string>
+    <string name="text.notification.push.description">
+        减价・店铺活动・购买的商品的出货・再进货等信息会使用通知功能告诉大家。
+    </string>
+    <string name="text.notification.title.mail">订阅号</string>
+    <string name="text.notification.mail.receive">接受订阅号</string>
+    <string name="text.notification.mail.description">减价,店铺活动的消息会用订阅号发送。</string>
+    <string name="text.profile.nickname.limit">不超过12字</string>
+    <string name="text.review.limit">不超过800字</string>
+    <string name="text.review.confirmed">已验证</string>
+    <string name="text.review.confirm.in">验证中</string>
+    <string name="text.review.post.success">接受了评价内容</string>
+    <string name="text.review.post.success.description">评价被批准后，会显示到画面上。到反映完了,还请稍等。</string>
+    <string name="text.store.services.title.ladies">女款</string>
+    <string name="text.store.services.title.men">男款</string>
+    <string name="text.store.services.title.kids">童款</string>
+    <string name="text.store.services.title.embroidery">刺绣</string>
+    <string name="text.store.services.title.printing">印花</string>
+    <string name="text.store.services.title.nonskid">防滑／穴位</string>
+    <string name="text.store.services.title.cleat">防滑</string>
+    <string name="text.store.services.title.chinaUnionpay">银连卡</string>
+    <string name="text.store.services.title.dutyFree">免税服务</string>
+    <string name="text.store.services.title.membershipPiece">赠送袜子片</string>
+    <string name="text.store.services.title.membershipCert">使用累计分</string>
+    <string name="text.store.business.title.weekday">平日</string>
+    <string name="text.store.business.title.holiday">节假日</string>
+    <string name="text.store.menu.title.access">访问</string>
+    <string name="text.item.type.socks">袜子</string>
+    <string name="text.item.type.footsies">船袜</string>
+    <string name="text.item.type.sandalSocks">凉鞋袜</string>
+    <string name="text.item.type.tights">裤袜</string>
+    <string name="text.item.type.stockings">丝袜</string>
+    <string name="text.item.type.leggings">打底裤</string>
+    <string name="text.item.type.stirrupLeggings">踩脚裤</string>
+    <string name="text.item.type.legWarmers">袜套</string>
+    <string name="text.search.title">搜索条件</string>
+    <string name="text.search.condition.title">确定搜索条件</string>
+    <string name="text.search.count">个</string>
+    <string name="text.search.filtering">设置中</string>
+    <string name="text.search.sort">重新排列</string>
+    <string name="text.search.sort.new">新到商品</string>
+    <string name="text.search.sort.popular">销售・人气</string>
+    <string name="text.search.sort.price.row">价格高</string>
+    <string name="text.search.sort.price.high">价格低</string>
+    <string name="text.search.menu.freeword">自由字符</string>
+    <string name="text.search.menu.prefectures">都道府県</string>
+    <string name="text.search.menu.brand">品牌</string>
+    <string name="text.search.menu.itemServices">商品和服务</string>
+    <string name="text.search.menu.searchByPrefectures">搜索县名</string>
+    <string name="text.search.menu.searchByBrands">搜索品牌</string>
+    <string name="text.search.menu.searchByServices">搜索商品和服务内容</string>
+    <string name="text.search.menu.gender">性别</string>
+    <string name="text.search.menu.type">种类</string>
+    <string name="text.search.menu.length">长度</string>
+    <string name="text.search.menu.size">脚的大小</string>
+    <string name="text.search.menu.toeType">脚指尺寸</string>
+    <string name="text.search.menu.function">功能</string>
+    <string name="text.search.menu.color">颜色</string>
+    <string name="text.search.menu.pattern">花纹</string>
+    <string name="text.search.menu.price">价位</string>
+    <string name="text.store.brand.kutsushitaya">靴下屋</string>
+    <string name="text.store.brand.tabio">Tabio</string>
+    <string name="text.store.brand.tabio_men">Tabio MEN 男款系列</string>
+    <string name="text.item.length.sneakersSocks">运动鞋</string>
+    <string name="text.item.length.shortAnkleLengthSocks">脚踝袜</string>
+    <string name="text.item.length.crewSocks">短袜(小腿下方)</string>
+    <string name="text.item.length.highCutHighSocks">长筒袜</string>
+    <string name="text.item.length.kneeHighSocks">过盖袜</string>
+    <string name="text.item.size.0709">7〜9cm（婴儿用）</string>
+    <string name="text.item.size.1012">10～12cm(6～12个月)</string>
+    <string name="text.item.size.1315">13～15cm(1～3岁)</string>
+    <string name="text.item.size.1618">16～18cm(男孩4～6岁、女孩4～7岁)</string>
+    <string name="text.item.size.1921">19～21cm(男孩7～10岁、女孩8～10岁)</string>
+    <string name="text.item.size.2223">22.0cm~23.0cm</string>
+    <string name="text.item.size.2324">23.0cm~24.0cm</string>
+    <string name="text.item.size.2425">24.0cm~25.0cm</string>
+    <string name="text.item.size.2526">25.0cm~26.0cm</string>
+    <string name="text.item.size.2627">26.0cm~27.0cm</string>
+    <string name="text.item.size.2728">27.0cm~28.0cm</string>
+    <string name="text.item.size.2829">28.0cm~29.0cm</string>
+    <string name="text.item.toe.type.toeSocks">五趾袜</string>
+    <string name="text.item.toe.type.tabiSocks">忍者袜</string>
+    <string name="text.item.material.100Cotton">100%棉</string>
+    <string name="text.item.material.silk">丝绸</string>
+    <string name="text.item.material.linen">麻</string>
+    <string name="text.item.material.wool">羊毛</string>
+    <string name="text.item.material.cupra">铜氨人造丝</string>
+    <string name="text.item.material.cashmere">羊绒</string>
+    <string name="text.item.material.angora">兔毛,安哥拉</string>
+    <string name="text.item.material.organicCotton">天然绵</string>
+    <string name="text.item.function.warm">防寒</string>
+    <string name="text.item.function.compression">浮肿(加压袜)</string>
+    <string name="text.item.function.keepDryDeodorant">透气性・防臭・脚气</string>
+    <string name="text.item.function.forDrySensitiveSkin">皮肤干燥・皮肤敏感</string>
+    <string name="text.item.function.forTiredLegs">脚疲劳</string>
+    <string name="text.item.function.nonElasticSoftTop">勒紧(袜口宽松)</string>
+    <string name="text.item.function.sport">运动</string>
+    <string name="text.item.function.forBetterSleep">睡眠(想熟睡的顾客)</string>
+    <string name="text.item.color.white">白色</string>
+    <string name="text.item.color.black">黑色</string>
+    <string name="text.item.color.grey">灰色</string>
+    <string name="text.item.color.beige">米色</string>
+    <string name="text.item.color.brown">茶色</string>
+    <string name="text.item.color.pink">粉红</string>
+    <string name="text.item.color.red">红色</string>
+    <string name="text.item.color.orange">橙色</string>
+    <string name="text.item.color.yellow">黄色</string>
+    <string name="text.item.color.green">绿色</string>
+    <string name="text.item.color.blue">蓝色</string>
+    <string name="text.item.color.navy">海军蓝</string>
+    <string name="text.item.color.purple">紫色</string>
+    <string name="text.item.pattern.plain">素款</string>
+    <string name="text.item.pattern.glittery">金银</string>
+    <string name="text.item.pattern.ribbed">罗纹</string>
+    <string name="text.item.pattern.borders">横条纹</string>
+    <string name="text.item.pattern.argyleDiamonds">阿盖儿・菱形花纹</string>
+    <string name="text.item.pattern.dotsPolkaDots">点点</string>
+    <string name="text.item.pattern.stars">星星</string>
+    <string name="text.item.pattern.floral">花纹</string>
+    <string name="text.item.pattern.stripes">竖条纹</string>
+    <string name="text.item.pattern.checks">方格</string>
+    <string name="text.item.pattern.ribbons">胡蝶</string>
+    <string name="text.item.pattern.hearts">心形</string>
+    <string name="text.item.pattern.jacquard">提花</string>
+    <string name="text.item.pattern.meshRaschelLace">网眼</string>
+    <string name="text.item.brand.tabioSports">TABIO SPORTS 运动系列</string>
+    <string name="text.item.brand.tabioLegLabo">TABIO LEG LABO 健康系列</string>
+    <string name="text.item.brand.tabioLuxe">Tabio LUXE</string>
+    <string name="text.item.brand.tabioArts">TABIO ARTS</string>
+    <string name="text.item.price.500">～500JPY</string>
+    <string name="text.item.price.5001000">500～1,000JPY</string>
+    <string name="text.item.price.10001500">1,000～1,500JPY</string>
+    <string name="text.item.price.15002000">1,500～2,000JPY</string>
+    <string name="text.item.price.20002500">2,000～2,500JPY</string>
+    <string name="text.item.price.25003000">2,500～3,000JPY</string>
+    <string name="text.item.price.30003500">3,000～3,500JPY</string>
+    <string name="text.item.price.35004000">3,500～4,000JPY</string>
+    <string name="text.item.price.40004500">4,000～4,500JPY</string>
+    <string name="text.item.price.45005000">4,500～5,000JPY</string>
+    <string name="text.item.price.5000">5,000JPY～</string>
+    <string-array name="prefectures">
+        <item>北海道</item>
+        <item>青森县</item>
+        <item>岩手县</item>
+        <item>宫城县</item>
+        <item>秋田县</item>
+        <item>山形县</item>
+        <item>福岛县</item>
+        <item>茨城县</item>
+        <item>栃木县</item>
+        <item>群马县</item>
+        <item>埼玉县</item>
+        <item>千葉県</item>
+        <item>東京都</item>
+        <item>神奈川县</item>
+        <item>新潟县</item>
+        <item>富山县</item>
+        <item>石川县</item>
+        <item>福井县</item>
+        <item>山梨县</item>
+        <item>长野县</item>
+        <item>岐阜县</item>
+        <item>静岡县</item>
+        <item>愛知县</item>
+        <item>三重县</item>
+        <item>滋賀县</item>
+        <item>京都府</item>
+        <item>大阪府</item>
+        <item>兵库县</item>
+        <item>奈良县</item>
+        <item>和歌山县</item>
+        <item>鸟取县</item>
+        <item>岛根县</item>
+        <item>岡山县</item>
+        <item>広岛县</item>
+        <item>山口县</item>
+        <item>徳岛县</item>
+        <item>香川县</item>
+        <item>愛媛县</item>
+        <item>高知县</item>
+        <item>福岡县</item>
+        <item>佐賀县</item>
+        <item>长崎县</item>
+        <item>熊本县</item>
+        <item>大分县</item>
+        <item>宮崎县</item>
+        <item>鹿児岛县</item>
+        <item>沖縄县</item>
+    </string-array>
+    <string name="text.faq.howto">解释使用方法的图面在这里</string>
+    <string name="text.faq.title">有关Tabio软件</string>
+    <string name="text.faq.title.1">关于商品</string>
+    <string name="text.faq.title.2">关于Tabio会员</string>
+    <string name="text.faq.title.3">关于Tabio App的使用</string>
+    <string name="text.faq.title.4">关于店铺的使用</string>
+    <string name="text.faq.title.5">关于Tabio在线商店的使用</string>
+    <string name="text.faq.title.6">错误·问题</string>
+    <string name="text.faq.title.7">关于注销</string>
+    <string name="text.faq.title.8">企业信息</string>
+    <string name="text.faq.title.9">其他</string>
+    <string name="text.preference.title.accounts">注册帐号</string>
+    <string name="text.preference.title.savetabioidpin.save">用邮件保存Tabio ID和PIN码</string>
+    <string name="text.preference.title.login.tabio">用Tabio ID、PIN码登录</string>
+    <string name="text.preference.title.login.facebook">绑定Facebook帐户</string>
+    <string name="text.preference.title.login2.facebook">用Facebok帐号登录</string>
+    <string name="text.preference.title.login.twitter">绑定Twitter帐户</string>
+    <string name="text.preference.title.login2.twitter">用Twitter帐户登录</string>
+    <string name="text.preference.title.login.email">请注册邮件地址和密码</string>
+    <string name="text.preference.title.login2.email">用邮件地址和密码登录</string>
+    <string name="text.preference.login.caution">进行注册的话，换手机、重装的时候，可以恢复\n原来的数据。</string>
+    <string name="text.preference.login.caution2">登录后可以恢复原来的数据。</string>
+    <string name="text.preference.title.online">整合Tabio在线商店会员信息和App信息</string>
+    <string name="text.preference.title.online2">和Tabio在线商店会员信息整合</string>
+    <string name="text.preference.title.login.online">Tabio在线商店登录</string>
+    <string name="text.preference.title.online.caution">持有Tabio在线商店帐户的会员，可以\n数据和App整合。</string>
+    <string name="text.preference.title.settings">设置</string>
+    <string name="text.preference.title.settings.notification">设置消息通知・信息</string>
+    <string name="text.preference.title.settings.language">设置语言</string>
+    <string name="text.preference.title.help.terms">会员协议</string>
+    <string name="text.preference.title.help.security">情报隐私</string>
+    <string name="text.preference.title.help.commercialRow">根据特定商取引法显示</string>
+    <string name="text.preference.title.help.faq">提问,咨询</string>
+    <string name="text.preference.savetabioidpin.title">您的Tabio ID、PIN码</string>
+    <string name="text.account.profile.title.nickname">昵称</string>
+    <string name="text.account.profile.title.birthday">出生年月日</string>
+    <string name="text.account.profile.title.nickname.placeholder">输入昵称</string>
+    <string name="text.account.profile.title.birthday.placeholder">输入出生年月日</string>
+    <string name="text.account.profile.title.gender.placeholder">选择性别</string>
+    <string name="text.account.profile.dialog.title.birthday">请选择出生年月日</string>
+    <string name="text.account.connect.title">绑定帐号</string>
+    <string name="text.account.login.facebook.success">已经绑定Facebook帐户</string>
+    <string name="text.account.login.facebook.fail">Facebook登录失败</string>
+    <string name="text.account.login.twitter.success">已经绑定Twitter帐号</string>
+    <string name="text.account.login.twitter.fail">Twitter登录失败</string>
+    <string name="text.account.login.email.success">已经绑定Email、密码</string>
+    <string name="text.account.login.email.fail">Email、Password登录失败</string>
+    <string name="text.account.login.success">注册成功</string>
+    <string name="text.account.login.fail">登录失败</string>
+    <string name="text.account.migrate.caution">
+        如登录信息，更换手机,再次下载时都可回复原来的资料。
+        袜子片・累积分・购买记录等的资料会合并。但APP上的资料会被更新。还请注意.。
+    </string>
+    <string name="text.review.create.fail.nickname">没有输入昵称</string>
+    <string name="text.review.create.fail.review">没有写评论</string>
+    <string name="text.account.language.change">是否更改语言设置？</string>
+    <string name="text.account.language.ja">日语</string>
+    <string name="text.account.language.en">英语</string>
+    <string name="text.account.language.fr">法语</string>
+    <string name="text.account.language.zh">中文</string>
+    <string name="text.account.language.ko">韩语</string>
+    <string name="text.date.weekday.sunday.short">星期日</string>
+    <string name="text.date.weekday.monday.short">星期一</string>
+    <string name="text.date.weekday.tuesday.short">星期二</string>
+    <string name="text.date.weekday.wednesday.short">星期三</string>
+    <string name="text.date.weekday.thursday.short">星期四</string>
+    <string name="text.date.weekday.friday.short">星期五</string>
+    <string name="text.date.weekday.saturday.short">星期六</string>
+    <string name="text.item.restock.success">接受再进货的要求。</string>
+    <string name="text.gender.man">男性</string>
+    <string name="text.gender.woman">女性</string>
+    <string name="text.account.edit.success">完成帐户编辑</string>
+    <string name="text.email.send.title">【重要】Tabio App ID・PIN码</string>
+    <string name="text.email.send.body">
+        衷心感谢各位对袜子店、Tabio、Tabio MEN的厚爱。\n
+        通知您的Tabio AppID、PIN码。\n
+        Tabio ID：%1$s\n
+        PIN码：%2$s\n\n
+        使用这里的ID和PIN码登录App的话，在换手机及重装的时候，可以继续使用pease和积分。\n
+        Tabio PIN码ID不能再生成。\n
+        因为是很重要的信息请妥善管理。\n
+        非常谢谢您的使用。\n\n
+        Tabio株式会社
+    </string>
+    <string name="mypage.popup.caption">
+        用电子邮件把ID和PIN码发送给自己。或手机截图保存下来。
+        另外，也可以保存到个人收藏里确认信息。
+    </string>
+    <string name="error.suspend">此帐号现在停止使用。袜子片,积分都不能使用。 停止被解除后会再联系您。还请谅解。</string>
+    <string name="text.location.authorize.deny">未被授权获取位置信息。请在设置画面授权。</string>
+    <string name="text.account.email.validation">请输入正确的邮件地址</string>
+    <string name="text.account.password.validation">密码请在6-50字以内输入。</string>
+    <string name="text.rankup.get">获得%1$sPOINT</string>
+    <string name="text.rankup.total">TOTAL POINT %1$ POINTS</string>
+    <string name="text.tax">税:</string>
+    <string name="text.order.item.total.taxIncluded">总价(包含税)</string>
+    <string name="text.coordinate.description.description1">把喜爱的搭配收藏,可获得袜子片！</string>
+    <string name="text.coordinate.description.description2">把商品代码扫描，\n看大家的漂亮搭配</string>
+    <string name="text.checkin.description.description">请把现在位置更能更换成ON，标记店铺。</string>
+    <string name="text.error.account.migrate">输入的信息有错误部分。\n还请确认后，再一次输入。</string>
+    <string name="text.no.store.search">查询的店铺不存在。</string>
+    <string name="text.no.item.search">查询的商品不存在。</string>
+    <string name="text.no.item.search.description">请再次更改检索内容</string>
+    <string name="text.camera.authorize.description">Tabio软件申请允许访问照相功能。请设置照相功能。</string>
+    <string name="text.coordinate.title.new">新搭配</string>
+    <string name="text.account.push.change">已更改通知设置。</string>
+    <string name="text.account.mailmagazine.change">订阅号已更改设置。</string>
+    <string name="text.account.update.force.title">APP的版本已更新。</string>
+    <string name="text.account.update.force.message">请更新新的版本。</string>
+    <string name="text.account.update.force.button.positive">更新</string>
+    <string name="button.update.password">更改密码</string>
+    <string name="text.account.login.caution">如已用邮箱地址注册，还请与Facebook・Twitter的ID连接。</string>
+    <string name="text.account.login.facebook.fail2">连接Facebook失败</string>
+    <string name="text.account.login.twitter.fail2">连接Twitter失败</string>
+    <string name="text.account.setting.not.yet">未设置</string>
+    <string name="text.coupon.caution">※不能与其他折扣劵一起使用</string>
+    <string name="text.actionsheet.camera">照相机</string>
+    <string name="text.actionsheet.cameraroll">照片</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment"></string>
+</resources>

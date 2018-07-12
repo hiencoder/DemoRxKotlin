@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="debug">DEBUG</string>
+    <string name="error.text.maintenance">현재 시스템 점검중입니다. 잠시후 접속하여 주십시오.</string>
+    <string name="error.text.undefined">불분명한 에러가 발생하였습니다.</string>
+    <string name="error.text.connection">네트워크에 접속할 수 없습니다.통신환경이 좋은 곳에서 다시 시도하여 주십시오.</string>
+    <string name="error">에러</string>
+    <string name="error.text.input.id">메일 어드레스 or Tabio ID를 입력하여 주십시오.</string>
+    <string name="error.text.input.tabioid">Tabio ID를 입력하여 주십시오.</string>
+    <string name="error.text.input.pin">PIN코드를 입력하여 주십시오.</string>
+    <string name="error.text.input.email">메일 주소를 입력하여 주십시오.</string>
+    <string name="error.text.input.password">패스워드 or PIN코드를 입력하여 주십시오.</string>
+    <string name="error.text.input.password2">패스워드를 입력하여 주십시오.</string>
+    <string name="error.text.location.toolong">위치정보의 취득에 시간이 걸리고 있습니다. 잠시만 기다려 주십시오.</string>
+    <string name="error.text.nodata">%1$s는 없습니다.</string>
+    <string name="text.item">상품</string>
+    <string name="text.items2">아이템</string>
+    <string name="text.store">점포</string>
+    <string name="text.coordinate">코디네이트</string>
+    <string name="text.review">리뷰</string>
+    <string name="text.readHistory">열람이력</string>
+    <string name="text.orderHistory">구입이력</string>
+    <string name="text.news">알림</string>
+    <string name="text.topics">토픽</string>
+    <string name="button.start">시작한다</string>
+    <string name="button.first">처음오신 분</string>
+    <string name="button.login">로그인</string>
+    <string name="button.login.first">기종변경・통신판매회원이신 분</string>
+    <string name="button.accept">동의한다</string>
+    <string name="button.resetPassword">패스워드를 잊어버리신 분은 여기로</string>
+    <string name="button.aboutAccount">Tabio ID, PIN코드 란?</string>
+    <string name="button.editAccount">어카운트 편집</string>
+    <string name="button.purchaseNow">구입</string>
+    <string name="button.restockRequest">재입고를 리퀘스트한다.</string>
+    <string name="button.restockRequested">재입하 리퀘스트 완료</string>
+    <string name="button.restockRequested2">리퀘스트 완료</string>
+    <string name="button.soldout">구입불가</string>
+    <string name="button.map">지도</string>
+    <string name="button.phone">전화한다</string>
+    <string name="button.favorite">즐겨찾기</string>
+    <string name="button.more">더 보기</string>
+    <string name="button.search">검색</string>
+    <string name="button.help">도움말</string>
+    <string name="button.newCoupon">신규쿠폰</string>
+    <string name="button.cart">카트</string>
+    <string name="button.cart.check">카트를 본다</string>
+    <string name="button.back">돌아간다.</string>
+    <string name="button.cover">커버 이미지</string>
+    <string name="button.edit">편집하기</string>
+    <string name="button.reset">취소한다.</string>
+    <string name="button.connectFacebook">Facebook 연계</string>
+    <string name="button.connectTwitter">Twitter 연계</string>
+    <string name="button.registerEmailPassword">메일주소・패스워드 등록</string>
+    <string name="button.settings">설정</string>
+    <string name="button.close">닫는다.</string>
+    <string name="button.detail">자세히 보기</string>
+    <string name="button.save">저장한다.</string>
+    <string name="button.save.id.pin">ID・PIN를 메일로 보존</string>
+    <string name="button.review.create">리뷰를 쓴다.</string>
+    <string name="button.send">송신</string>
+    <string name="button.push.desc">푸시알림의 자세한 설정은 여기로</string>
+    <string name="button.ok">OK</string>
+    <string name="button.register">등록한다.</string>
+    <string name="button.update.emailpassword">메일주소・패스워드를 변경한다.</string>
+    <string name="button.contact">문의</string>
+    <string name="button.returned">반품・교환은 여기로</string>
+    <string name="button.cancel">취소한다.</string>
+    <string name="button.delivery.status">배송상황을 확인한다.</string>
+    <string name="text.input.required">필수</string>
+    <string name="text.tutorial.1">언제든지, 어디서든지, 사용할 수 있고, 쌓이는. Tabio앱</string>
+    <string name="text.tutorial.2">회원증 이외에도 쇼핑이나 체크인 코디네이트도 볼 수 있어요!</string>
+    <string name="text.tutorial.3">다양한 방법으로 「피스」가 쌓이고 피스가 모이면쇼핑에 사용하실 수 있는 포인트를 GET!</string>
+    <string name="text.tutorial.4">피스가 쌓이면 회원 랭크가 UP! 랭크에 따라 멋진 쿠폰을 선물!</string>
+    <string name="text.terms.title">회원규약・통신판매규약</string>
+    <string name="text.about.description">Tabio ID、PINコード는、Tabio 어플리케이션 회원분께 자동으로 부여되는 회원넘버와 패스워드 입니다. 마이 페이지에서도 확인하실 수 있습니다.</string>
+    <string name="text.about.example.title">Tabio ID / PIN코드 예</string>
+    <string name="text.about.example.tabio.id">Tabio ID : 1234567890123</string>
+    <string name="text.about.example.tabio.pin">PIN code : 1234</string>
+    <string name="text.about.caution">
+        Tabio ID와 PIN코드는 로그인ID・패스워드로서 취급됩니다.\n이 ID와 PIN코드는 재발행할 수 없습니다.\n
+        ID와 PIN코드는 자신에게 메일로 보내거나 캡쳐를 찍는 등 소중히 보관하여 주십시오. 또한 ID와 PIN코드는 「마이 페이지」내에서 \n
+        언제든지 확인하실 수 있습니다.
+    </string>
+    <string name="text.login.description">등록하신 메일주소, SNS, Tabio ID/PIN코드로 로그인하실 수 있습니다.Tabio 온라인스토어의 회원이신 분은 이용하시는 메일주소를 입력해주십시오.</string>
+    <string name="text.login.form.title">Tabio ID 로그인</string>
+    <string name="text.login.form.hint.id">Tabio ID 또는 메일주소를 입력</string>
+    <string name="text.login.from.hint.pass">PIN코드 또는 패스워드를 입력</string>
+    <string name="text.login.form.sns.title">SNS 어카운트로 로그인</string>
+    <string name="text.main.title">회원증</string>
+    <string name="text.main.title.totalPoint">합계 포인트 : </string>
+    <string name="text.main.title.expiresPiece">피스 유효기간 : </string>
+    <string name="text.main.title.expiresPoint">포인트 유효기한 : </string>
+    <string name="text.main.title.piece">  Piece  </string>
+    <string name="text.main.condition">나머지 %1$d피스로 %2$d포인트 부여됩니다.</string>
+    <string name="text.date.year">년</string>
+    <string name="text.date.month">월</string>
+    <string name="text.date.day">일</string>
+    <string name="text.main.description.description">푸시알림을 ON으로 해서 유리한 쿠폰을 받아요.</string>
+    <string name="text.main.help.title">회원증 화면에 관하여</string>
+    <string name="text.main.help.description.piece.1">1피스</string>
+    <string name="text.main.help.description.piece.5">5피스</string>
+    <string name="text.main.help.description.piece.10">10피스</string>
+    <string name="text.main.help.description.1.1">상품구입 1엔당</string>
+    <string name="text.main.help.description.1.2">상품・점포・코디의 즐겨찾기</string>
+    <string name="text.main.help.description.1.4">리뷰를 등록</string>
+    <string name="text.main.help.description.2.1">5000피스가 모이면 100포인트가 부여됩니다.포인트는 1포인트1엔으로 실제 쇼핑에서 사용하실 수 있습니다.</string>
+    <string name="text.main.help.description.3.1">피스를 모으면 Rank가 올라갑니다.Rank에 따라 유리한 쿠폰이 발신됩니다.쿠폰의 일팜은 여기서 확인하실 수 있습니다.</string>
+    <string name="text.coupon.title">쿠폰</string>
+    <string name="text.coupon.barcode.title">회원 바코드</string>
+    <string name="text.coupon.type.all">전점포 공통쿠폰</string>
+    <string name="text.coupon.type.shop">가게에서 쓸 수 있는 쿠폰</string>
+    <string name="text.coupon.type.online">온라인 한정쿠폰</string>
+    <string name="text.coupon.detail.title">쿠폰상세</string>
+    <string name="text.coordinate.title">코티</string>
+    <string name="text.coordinate.store.title">%1$s의 코디네이트</string>
+    <string name="text.scan.title">스캔</string>
+    <string name="text.scan.description">테두리 안에 바코드가 들어가도록 해주십시오.</string>
+    <string name="text.blog.title">%1$s의 블로그/캠페인</string>
+    <string name="text.account.my.id">Tabio ID</string>
+    <string name="text.account.my.id.input">Tabio ID를 입력</string>
+    <string name="text.account.my.pin">PIN코드</string>
+    <string name="text.account.my.pin.input">PIN코드를 입력</string>
+    <string name="text.account.my.idpin.send">ID와 PIN을 메일로 보낸다.</string>
+    <string name="text.account.email.register">메일주소 등록</string>
+    <string name="text.account.email.register.description.1">
+        메일주소로 Tabio어플리케이션의 어카운트를 등록합니다. 기종변경, 재인스톨 하실 때등록정보로 로그인 하시면 이전의 정보를 이어 사용하실 수 있습니다.
+        「등록한다」 버튼을누르신후 자동확인 메일을 보냅니다.
+    </string>
+    <string name="text.account.email.register.description.2">
+        여기에 메일주소를 등록하시면 \nTabio온라인스토어에서도 로그인하실 수 있습니다.
+        메일주소・패스워드를 변경하는 경우에는 \nTabio온라인스토어의 마이페이지에서 변경하여 주십시오.
+    </string>
+    <string name="text.account.email">메일주소</string>
+    <string name="text.account.email.input">메일주소를 입력</string>
+    <string name="text.account.password">패스워드</string>
+    <string name="text.account.password.input">패스워드를 입력</string>
+    <string name="text.account.email.input.done">메일주소는 등록되어 있습니다.</string>
+    <string name="text.account.password.input.done">등록된 패스워드</string>
+    <string name="text.mypage.title">마이 페이지</string>
+    <string name="text.mypage.menu.title.favoriteItems">즐겨찾기</string>
+    <string name="text.mypage.menu.title.favoriteCoordinates">마음에 드는 코디</string>
+    <string name="text.mypage.menu.title.favoriteStores">마음에 드는 점포</string>
+    <string name="text.mypage.menu.title.reviews">리뷰</string>
+    <string name="text.mypage.menu.title.pieceGetHistories">피스 획득이력</string>
+    <string name="text.mypage.menu.title.pointGetHistories">포인트 획득이력</string>
+    <string name="text.histories.unit.piece">피스</string>
+    <string name="text.histories.piece.total">누계 피스수</string>
+    <string name="text.piece.invalid">%1$s로 실효됩니다.</string>
+    <string name="text.histories.unit.point">포인트</string>
+    <string name="text.histories.point.balance">보유포인트 잔고</string>
+    <string name="text.purchase.title.endText"> 에서 구입</string>
+    <string name="text.item.order.status.1">구입완료</string>
+    <string name="text.item.order.status.2">주문완료</string>
+    <string name="text.item.order.status.3">발송대기</string>
+    <string name="text.item.order.status.4">발송완료</string>
+    <string name="text.item.order.status.5">취소</string>
+    <string name="text.item.order.status.6">반품</string>
+    <string name="text.checkin.title">체크인</string>
+    <string name="text.checkin.menu.title.checkinableStores">체크인 가능 점포</string>
+    <string name="text.checkin.menu.title.nearbyStores">가까운 점포</string>
+    <string name="text.checkin.menu.title.checkinHistories">체크인 이력</string>
+    <string name="text.checkin.no.title">체크인할 수 있는 점포가 없습니다.</string>
+    <string name="text.checkin.no.description.1">가게에 체크인해서 피스를 모으자.</string>
+    <string name="text.checkin.no.description.2">1번의 체크인으로 5피스를 획득하실 수 있습니다.</string>
+    <string name="text.store.result.title">검색결과</string>
+    <string name="text.store.operation.date">영업일</string>
+    <string name="text.store.operation.time">영업시간</string>
+    <string name="text.store.tel">TEL</string>
+    <string name="text.coordinates.title">코디네이트 목록</string>
+    <string name="text.item.price.netoftax">(세금별도)</string>
+    <string name="text.order.item.price.netoftax">상품대금(세금별도):</string>
+    <string name="text.order.item.price.discount.netoftax">할인(세금별도):</string>
+    <string name="text.order.item.usepoint.netoftax">포인트 이용(세금별도):</string>
+    <string name="text.order.item.subtotal.netoftax">소계(세금별도):</string>
+    <string name="text.order.item.shippingFees.taxIncluded">배송료・수수료(세금포함):</string>
+    <string name="text.order.item.getPiece">획득 피스:</string>
+    <string name="text.order.item.sellingPrice.taxIncluded">판매가격(세금포함)</string>
+    <string name="text.item.menu.title.instockStores">재고가 있는 가까운 점포</string>
+    <string name="text.item.caution1">표시된 금액은 온라인 스토어의 가격입니다. 점포의 판매가와는 다른 경우가 있습니다.</string>
+    <string name="text.item.caution2">재고있음 의 표시라도 품절된 경우가 있습니다. 반드시 이용점포에 문의하여 주십시오.</string>
+    <string name="text.item.magazine.published">잡지게재</string>
+    <string name="text.item.title.description">아이템 설명</string>
+    <string name="text.item.title.material">소재</string>
+    <string name="text.item.status.few">재고 별로 없음</string>
+    <string name="text.item.status.hasStock">재고있음</string>
+    <string name="text.item.status.outOfStock">재고없음</string>
+    <string name="text.item.stock.noStore">현재 취급하는 점포가 없습니다.</string>
+    <string name="text.item.cart.add">카트에 추가하였습니다.</string>
+    <string name="text.item.favorite.add">즐겨찾기에 등록하였습니다.</string>
+    <string name="text.item.restock.caution">※푸시알림을 OFF로 하신 경우, 재입고의 알림을 받으실 수 없습니다.</string>
+    <string name="text.item.color">색</string>
+    <string name="text.item.size">사이즈</string>
+    <string name="text.item.quantity">수량</string>
+    <string name="text.notification.title.push">알림을 통지</string>
+    <string name="text.notification.push.receive">알림 통지를 받는다</string>
+    <string name="text.notification.push.description">
+        세일 소식이나 알뜰 정보, 구입하신 상품의 출하정보, 재입고정보 등, 도움이 되는 정보를 푸시알림으로 전해드립니다.
+    </string>
+    <string name="text.notification.title.mail">메일 매거진</string>
+    <string name="text.notification.mail.receive">메일 매거진을 받는다.</string>
+    <string name="text.notification.mail.description">세일의 알림이나 유리한 정보를 메일 매거진으로 보내드립니다.</string>
+    <string name="text.profile.nickname.limit">12자까지</string>
+    <string name="text.review.limit">최대800자까지</string>
+    <string name="text.review.confirmed">승인완료</string>
+    <string name="text.review.confirm.in">승인중</string>
+    <string name="text.review.post.success">리뷰 등록을 접수하였습니다.</string>
+    <string name="text.review.post.success.description">리뷰 등록이 승인되는대로 표시됩니다. 반영되기까지 잠시만 기다려주십시오.</string>
+    <string name="text.store.services.title.ladies">남성용</string>
+    <string name="text.store.services.title.men">여성용</string>
+    <string name="text.store.services.title.kids">아동용</string>
+    <string name="text.store.services.title.embroidery">자수</string>
+    <string name="text.store.services.title.printing">프린트</string>
+    <string name="text.store.services.title.nonskid">미끄럼 방지/혈 마사지</string>
+    <string name="text.store.services.title.cleat">미끄럼 방지</string>
+    <string name="text.store.services.title.chinaUnionpay">인롄 카드</string>
+    <string name="text.store.services.title.dutyFree">면제</string>
+    <string name="text.store.services.title.membershipPiece">피스 부여</string>
+    <string name="text.store.services.title.membershipCert">포인트 이용</string>
+    <string name="text.store.business.title.weekday">평일</string>
+    <string name="text.store.business.title.holiday">토일휴</string>
+    <string name="text.store.menu.title.access">교통</string>
+    <string name="text.item.type.socks">양말</string>
+    <string name="text.item.type.footsies">커버 양말</string>
+    <string name="text.item.type.sandalSocks">샌들 양말</string>
+    <string name="text.item.type.tights">타이츠</string>
+    <string name="text.item.type.stockings">스타킹</string>
+    <string name="text.item.type.leggings">레깅스</string>
+    <string name="text.item.type.stirrupLeggings">고리 레깅스</string>
+    <string name="text.item.type.legWarmers">레그 워머</string>
+    <string name="text.search.title">검색조건</string>
+    <string name="text.search.condition.title">검색조건을 확정</string>
+    <string name="text.search.count">건</string>
+    <string name="text.search.filtering">설정중</string>
+    <string name="text.search.sort">정렬</string>
+    <string name="text.search.sort.new">신착</string>
+    <string name="text.search.sort.popular">매상・인기순</string>
+    <string name="text.search.sort.price.row">가격이 저렴한 순</string>
+    <string name="text.search.sort.price.high">가격이 비싼 순</string>
+    <string name="text.search.menu.freeword">프리워드</string>
+    <string name="text.search.menu.prefectures">도도부현(都道府県)</string>
+    <string name="text.search.menu.brand">브랜드</string>
+    <string name="text.search.menu.itemServices">상품・서비스</string>
+    <string name="text.search.menu.searchByPrefectures">도도부현(都道府県)으로 찾기</string>
+    <string name="text.search.menu.searchByBrands">브랜드로 찾기</string>
+    <string name="text.search.menu.searchByServices">상품・서비스로 찾기</string>
+    <string name="text.search.menu.gender">성별</string>
+    <string name="text.search.menu.type">종류</string>
+    <string name="text.search.menu.length">기장</string>
+    <string name="text.search.menu.size">발 사이즈</string>
+    <string name="text.search.menu.toeType">발가락 사이즈</string>
+    <string name="text.search.menu.function">기능</string>
+    <string name="text.search.menu.color">색</string>
+    <string name="text.search.menu.pattern">무늬</string>
+    <string name="text.search.menu.price">가격대</string>
+    <string name="text.store.brand.kutsushitaya">양말 전문점</string>
+    <string name="text.store.brand.tabio">Tabio</string>
+    <string name="text.store.brand.tabio_men">Tabio MEN</string>
+    <string name="text.item.length.sneakersSocks">스니커 양말</string>
+    <string name="text.item.length.shortAnkleLengthSocks">쇼트・발목 양말</string>
+    <string name="text.item.length.crewSocks">크루 양말(종아리 밑)</string>
+    <string name="text.item.length.highCutHighSocks">하이컷・하이삭스</string>
+    <string name="text.item.length.kneeHighSocks">니하이 삭스</string>
+    <string name="text.item.size.0709">7〜9cm（신생아용）</string>
+    <string name="text.item.size.1012">10～12cm(6～12개월)</string>
+    <string name="text.item.size.1315">13～15cm(1～3세)</string>
+    <string name="text.item.size.1618">16～18cm(남아4～6세, 여아4～7세)</string>
+    <string name="text.item.size.1921">19～21cm(남아7～10세, 여아8～10세)</string>
+    <string name="text.item.size.2223">22.0cm~23.0cm</string>
+    <string name="text.item.size.2324">23.0cm~24.0cm</string>
+    <string name="text.item.size.2425">24.0cm~25.0cm</string>
+    <string name="text.item.size.2526">25.0cm~26.0cm</string>
+    <string name="text.item.size.2627">26.0cm~27.0cm</string>
+    <string name="text.item.size.2728">27.0cm~28.0cm</string>
+    <string name="text.item.size.2829">28.0cm~29.0cm</string>
+    <string name="text.item.toe.type.toeSocks">발가락</string>
+    <string name="text.item.toe.type.tabiSocks">타비(양갈래)</string>
+    <string name="text.item.material.100Cotton">면100%</string>
+    <string name="text.item.material.silk">실크</string>
+    <string name="text.item.material.linen">삼베</string>
+    <string name="text.item.material.wool">털</string>
+    <string name="text.item.material.cupra">큐프라</string>
+    <string name="text.item.material.cashmere">캐시미어</string>
+    <string name="text.item.material.angora">앙고라</string>
+    <string name="text.item.material.organicCotton">오가닉 코튼</string>
+    <string name="text.item.function.warm">냉증 예방</string>
+    <string name="text.item.function.compression">부종(착압양말)</string>
+    <string name="text.item.function.keepDryDeodorant">습기・냄새・무좀</string>
+    <string name="text.item.function.forDrySensitiveSkin">건조피부・민감피부</string>
+    <string name="text.item.function.forTiredLegs">발의 피로</string>
+    <string name="text.item.function.nonElasticSoftTop">발의 조임(고무입구 여유롭게)</string>
+    <string name="text.item.function.sport">스포츠</string>
+    <string name="text.item.function.forBetterSleep">수면(숙면하시고 싶은 분)</string>
+    <string name="text.item.color.white">화이트</string>
+    <string name="text.item.color.black">블랙</string>
+    <string name="text.item.color.grey">그레이</string>
+    <string name="text.item.color.beige">베이지</string>
+    <string name="text.item.color.brown">브라운</string>
+    <string name="text.item.color.pink">핑크</string>
+    <string name="text.item.color.red">레드</string>
+    <string name="text.item.color.orange">오렌지</string>
+    <string name="text.item.color.yellow">옐로우</string>
+    <string name="text.item.color.green">그린</string>
+    <string name="text.item.color.blue">블루</string>
+    <string name="text.item.color.navy">네이비</string>
+    <string name="text.item.color.purple">퍼플</string>
+    <string name="text.item.pattern.plain">무지</string>
+    <string name="text.item.pattern.glittery">라메</string>
+    <string name="text.item.pattern.ribbed">리브</string>
+    <string name="text.item.pattern.borders">보더</string>
+    <string name="text.item.pattern.argyleDiamonds">아가일・다이아몬드</string>
+    <string name="text.item.pattern.dotsPolkaDots">도트・물방울</string>
+    <string name="text.item.pattern.stars">별무늬</string>
+    <string name="text.item.pattern.floral">꽃무늬</string>
+    <string name="text.item.pattern.stripes">스트라이프</string>
+    <string name="text.item.pattern.checks">체크</string>
+    <string name="text.item.pattern.ribbons">리본</string>
+    <string name="text.item.pattern.hearts">하트 무늬</string>
+    <string name="text.item.pattern.jacquard">자카드</string>
+    <string name="text.item.pattern.meshRaschelLace">메시・러셀・망</string>
+    <string name="text.item.brand.tabioSports">TABIO SPORTS</string>
+    <string name="text.item.brand.tabioLegLabo">TABIO LEG LABO</string>
+    <string name="text.item.brand.tabioLuxe">Tabio LUXE</string>
+    <string name="text.item.brand.tabioArts">TABIO ARTS</string>
+    <string name="text.item.price.500">～500엔</string>
+    <string name="text.item.price.5001000">500～1,000엔</string>
+    <string name="text.item.price.10001500">1,000～1,500엔</string>
+    <string name="text.item.price.15002000">1,500～2,000엔</string>
+    <string name="text.item.price.20002500">2,000～2,500엔</string>
+    <string name="text.item.price.25003000">2,500～3,000엔</string>
+    <string name="text.item.price.30003500">3,000～3,500엔</string>
+    <string name="text.item.price.35004000">3,500～4,000엔</string>
+    <string name="text.item.price.40004500">4,000～4,500엔</string>
+    <string name="text.item.price.45005000">4,500～5,000엔</string>
+    <string name="text.item.price.5000">5,000엔～</string>
+    <string-array name="prefectures">
+        <item>홋카이도</item>
+        <item>아오모리현</item>
+        <item>이와테현</item>
+        <item>미야기현i</item>
+        <item>아키타현</item>
+        <item>야마가타현</item>
+        <item>후쿠시마현</item>
+        <item>이바라키현</item>
+        <item>토치기현</item>
+        <item>군마현</item>
+        <item>사이타마현</item>
+        <item>치바현</item>
+        <item>동경도</item>
+        <item>카나가와현</item>
+        <item>니이가타현</item>
+        <item>토야마현</item>
+        <item>이시카와현</item>
+        <item>후쿠이현</item>
+        <item>야마나시현</item>
+        <item>나가노현</item>
+        <item>기후현</item>
+        <item>시즈오카현</item>
+        <item>아이치현</item>
+        <item>미에현</item>
+        <item>시가현</item>
+        <item>쿄토부</item>
+        <item>오사카부</item>
+        <item>효고현</item>
+        <item>나라현</item>
+        <item>와카야마현</item>
+        <item>톳도리현</item>
+        <item>시마네현</item>
+        <item>오카야마현</item>
+        <item>히로시마현</item>
+        <item>야마구치현</item>
+        <item>토쿠시마현</item>
+        <item>카가와현</item>
+        <item>아이치현</item>
+        <item>코치현</item>
+        <item>후쿠오카현</item>
+        <item>사가현</item>
+        <item>나가사키현</item>
+        <item>쿠마모토현</item>
+        <item>오이타현</item>
+        <item>미야자키현</item>
+        <item>카고시마현</item>
+        <item>오키나와</item>
+    </string-array>
+    <string name="text.faq.howto">사용법을 알 수 있는 튜터리얼은 여기</string>
+    <string name="text.faq.title">Tabio 어플리케이션에 관하여</string>
+    <string name="text.faq.title.1">상품에 관하여</string>
+    <string name="text.faq.title.2">Tabio회원에 관하여</string>
+    <string name="text.faq.title.3">Tabio앱의 이용에 관하여</string>
+    <string name="text.faq.title.4">점포의 이용에 관하여</string>
+    <string name="text.faq.title.5">Tabio온라인스토어의 이용에 관하여</string>
+    <string name="text.faq.title.6">오류・트러블</string>
+    <string name="text.faq.title.7">탈퇴에 관하여</string>
+    <string name="text.faq.title.8">기업정보</string>
+    <string name="text.faq.title.9">그 밖에</string>
+    <string name="text.preference.title.accounts">어카운트 등록</string>
+    <string name="text.preference.title.savetabioidpin.save">Tabio ID, PIN코드를 메일로 보존한다.</string>
+    <string name="text.preference.title.login.tabio">Tabio ID, PIN코드로 로그인</string>
+    <string name="text.preference.title.login.facebook">Facebook 어카운트를 연계하기</string>
+    <string name="text.preference.title.login2.facebook">Facebook 어카운트로 로그인</string>
+    <string name="text.preference.title.login.twitter">Twitter 어카운트로 연계하기</string>
+    <string name="text.preference.title.login2.twitter">Twitter 어카운트로 로그인</string>
+    <string name="text.preference.title.login.email">메일주소/패스워드를 등록하기</string>
+    <string name="text.preference.title.login2.email">메일주소・패스워드로 로그인</string>
+    <string name="text.preference.login.caution">등록하시면 기종변경, 재설치하실 때 \n원래의 데이터를 복원하실 수 있습니다.</string>
+    <string name="text.preference.login.caution2">로그인하시면 원래 데이터를 복원하실 수 있습니다.</string>
+    <string name="text.preference.title.online">Tabio온라인스토어 회원정보와 앱 정보를 통합</string>
+    <string name="text.preference.title.online2">Tabio온라인스토어 회원정보와 통합하기.</string>
+    <string name="text.preference.title.login.online">Tabio온라인스토어 로그인</string>
+    <string name="text.preference.title.online.caution">Tabio온라인스토어의 어카운트를 가지고 계신 분은 \n데이터를 앱과 통합하실 수 있습니다.</string>
+    <string name="text.preference.title.settings">설정</string>
+    <string name="text.preference.title.settings.notification">푸시알림・메일설정</string>
+    <string name="text.preference.title.settings.language">언어설정</string>
+    <string name="text.preference.title.help.terms">회원규약</string>
+    <string name="text.preference.title.help.security">정보보안정책</string>
+    <string name="text.preference.title.help.commercialRow">특정상거래법에 의거한 표시</string>
+    <string name="text.preference.title.help.faq">FAQ・표시</string>
+    <string name="text.preference.savetabioidpin.title">당신의 Tabio ID・PIN</string>
+    <string name="text.account.profile.title.nickname">닉네임</string>
+    <string name="text.account.profile.title.birthday">생년월일</string>
+    <string name="text.account.profile.title.nickname.placeholder">닉네임을 입력</string>
+    <string name="text.account.profile.title.birthday.placeholder">생년월일을 입력</string>
+    <string name="text.account.profile.title.gender.placeholder">성별을 선택</string>
+    <string name="text.account.profile.dialog.title.birthday">생년월일을 선택하여 주십시오.</string>
+    <string name="text.account.connect.title">어카운트 연계</string>
+    <string name="text.account.login.facebook.success">Facebook 어카운트를 연계하였습니다.</string>
+    <string name="text.account.login.facebook.fail">Facebook 로그인에 실패하였습니다.</string>
+    <string name="text.account.login.twitter.success">Twitter 어카운트를 연계하였습니다.</string>
+    <string name="text.account.login.twitter.fail">Twitter 로그인에 실패하였습니다.</string>
+    <string name="text.account.login.email.success">Email、패스워드를 연계하였습니다.</string>
+    <string name="text.account.login.email.fail">Email、Password 로그인에 실패하였습니다.</string>
+    <string name="text.account.login.success">로그인에 성공하였습니다.</string>
+    <string name="text.account.login.fail">로그인에 실패하였습니다.</string>
+    <string name="text.account.migrate.caution">
+        로그인하시면 기종변경이나 재인스톨하실 때 원래의 데이터를 복원하실 수 있습니다.
+        피스, 포인트, 구입이력 등의 정보는 통합되지만 현재의 어플리케이션 정보(Tabio ID, PIN코드, 메일주소, 생년월일, 닉네임 등)는 새로운 정보로 덮어쓰여지므로 주의하시실 바랍니다.
+    </string>
+    <string name="text.review.create.fail.nickname">닉네임이 입력되어 있지 않습니다.</string>
+    <string name="text.review.create.fail.review">리뷰가 입력되어 있지 않습니다.</string>
+    <string name="text.account.language.change">언어설정을 변경하시겠습니까?</string>
+    <string name="text.account.language.ja">일본어</string>
+    <string name="text.account.language.en">English</string>
+    <string name="text.account.language.fr">Français</string>
+    <string name="text.account.language.zh">中文</string>
+    <string name="text.account.language.ko">한국어</string>
+    <string name="text.date.weekday.sunday.short">일</string>
+    <string name="text.date.weekday.monday.short">월</string>
+    <string name="text.date.weekday.tuesday.short">화</string>
+    <string name="text.date.weekday.wednesday.short">수</string>
+    <string name="text.date.weekday.thursday.short">목</string>
+    <string name="text.date.weekday.friday.short">금</string>
+    <string name="text.date.weekday.saturday.short">토</string>
+    <string name="text.item.restock.success">재입고 리퀘스트를 접수하였습니다.</string>
+    <string name="text.gender.man">남성</string>
+    <string name="text.gender.woman">여성</string>
+    <string name="text.account.edit.success">어카운트 편집이 완료되었습니다.</string>
+    <string name="text.email.send.title">【중요】Tabio앱 ID・PIN코드</string>
+    <string name="text.email.send.body">
+        언제나 靴下屋(쿠츠시타야), Tabio, Tabio MEN를 사랑해주셔서 정말 감사합니다.\n
+        Tabio 앱의 ID, PIN코드를 알려드립니다.\n
+        Tabio ID：%1$s\n
+        PIN코드：%2$s\n\n
+        이 ID, PIN코드를 이용하여 앱으로 로그인하시면 기종변경이나 재설치하실 때에 피스, 포인트를 이어서 이용하실 수 있습니다.\n
+        Tabio ID, PIN코드는 재발행이 되지 않습니다.\n
+        중요한 정보이므로 소중히 보관하여 주십시오.\n
+        이용해주셔서 정말 감사합니다.\n\n
+        타비오 주식회사
+    </string>
+    <string name="mypage.popup.caption">
+        ID와 PIN코드는 자신에게 메일로 보내거나 캡쳐를 하는 등 소중히 보관해주세요 또한 ID와 PIN코드는
+        「마이 페이지」내에서 언제든지 확인하실 수 있습니다.
+    </string>
+    <string name="error.suspend">이어카운트는현재정지되어있습니다.피스,포인트를이용하실수없습니다.정지가해제되면연락드리겠습니다.양해바랍니다.</string>
+    <string name="text.location.authorize.deny">위치정보의 취득이 허가되지 않았습니다. 설정화면에서 허가해주십시오.</string>
+    <string name="text.account.email.validation">바른 메일주소를 입력하여 주십시오.</string>
+    <string name="text.account.password.validation">패스워드는 6자 이상 50자 이하로 입력하여 주십시오.</string>
+    <string name="text.rankup.get">%1$sPOINT가 부여되었습니다.</string>
+    <string name="text.rankup.total">TOTAL POINT %1$ POINTS</string>
+    <string name="text.tax">세:</string>
+    <string name="text.order.item.total.taxIncluded">합계(세금포함)</string>
+    <string name="text.coordinate.description.description1">코디를 즐겨찾기하고 피스를 획득!</string>
+    <string name="text.coordinate.description.description2">바코드를 스캔해서\n코디네이트를 첵크</string>
+    <string name="text.checkin.description.description">위치정보를 ON으로 하여 가게에 체크인 하자</string>
+    <string name="text.error.account.migrate">입력하신정보에오류가있습니다.\n확인하신후다시입력해주십시오. </string>
+    <string name="text.no.store.search">해당하는점포가없습니다.</string>
+    <string name="text.no.item.search">해당하는 상품이 없습니다.</string>
+    <string name="text.no.item.search.description">다시 검색내용을 변경하여 주십시오.</string>
+    <string name="text.camera.authorize.description">「Tabio 어플리케이션」으로 카메라에 접근이 허가되어 있지 않습니다.카메라 접근의 설정을 부탁드립니다.</string>
+    <string name="text.coordinate.title.new">신착 코디네이트</string>
+    <string name="text.account.push.change">알림통지 설정을 변경하였습니다.</string>
+    <string name="text.account.mailmagazine.change">메일 매거진 설정을 변경하였습니다.</string>
+    <string name="text.account.update.force.title">어플리케이션의 버전이 새로워졌습니다.</string>
+    <string name="text.account.update.force.message">새로운 버전의 어플리케이션이 릴리스되었습니다. 업데이트하여 이용하여 주십시오.</string>
+    <string name="text.account.update.force.button.positive">업데이트</string>
+    <string name="button.update.password">패스워드를 변경하기</string>
+    <string name="text.account.login.caution">이미 메일어드레스로 회원등록하신 경우 마이 페이지로부터 Facebook, Twitter 연계를 부탁드립니다.</string>
+    <string name="text.account.login.facebook.fail2">Facebook 연계에 실패하였습니다.</string>
+    <string name="text.account.login.twitter.fail2">Twitter 연계에 실패하였습니다.</string>
+    <string name="text.account.setting.not.yet">미설정</string>
+    <string name="text.coupon.caution">※다른 쿠폰과 같이 사용하실 수 없습니다.</string>
+    <string name="text.actionsheet.camera">카메라</string>
+    <string name="text.actionsheet.cameraroll">카메라 롤</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment"></string>
+</resources>

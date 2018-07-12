@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/greenDark200</color>
+    <color name="colorPrimaryDark">@color/greenDark900</color>
+    <color name="colorAccent">@color/greenLight</color>
+    <color name="colorPrimary2">#860007</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color><!-- rank color -->
+    <color name="whiteSmoke">#ededed</color>
+    <color name="greenDark100">#2b363e</color>
+    <color name="greenDark200">#263238</color>
+    <color name="greenDark900">#161D21</color>
+    <color name="greenLight">#6aa55c</color>
+    <color name="greenLight500">#a9ed3e</color><!-- rank color -->
+    <color name="grayDark">#333333</color>
+    <color name="gray">#8b8b8b</color>
+    <color name="grayLight100">#999999</color>
+    <color name="grayLight200">#b9b9b9</color>
+    <color name="grayLight300">#e5e5e5</color>
+    <color name="grayLight400">#EBEBEB</color>
+    <color name="grayLight600">#f7f7f7</color>
+    <color name="yellow">#f1e402</color><!-- rank color -->
+    <color name="blueLight800">#7fe5f1</color><!-- rank color -->
+    <color name="blueLight200">#00aced</color>
+    <color name="blueDark">#3b5998</color>
+    <color name="purple">#bdb7f2</color><!-- rank color -->
+    <color name="pink">#f6b3fa</color><!-- rank color -->
+    <color name="pinkLight">#f7f2f2</color>
+    <color name="red">#ffacac</color><!-- rank color -->
+    <color name="redDark600">#8e0000</color>
+    <color name="orange">#ffba75</color><!-- rank color -->
+    <color name="silver">#d5d5d5</color><!-- rank color -->
+    <color name="gold">#d3d087</color><!-- rank color -->
+
+
+    <!-- Filter color -->
+    <color name="black">#000000</color>
+    <color name="grayLight500">#686868</color>
+    <color name="beige">#aaaa9d</color>
+    <color name="brown">#882a05</color>
+    <color name="pinkLight400">#f19db8</color>
+    <color name="redDark100">#f30000</color>
+    <color name="orangeLight100">#ff6a2c</color>
+    <color name="yellowLight100">#f5e500</color>
+    <color name="greenLight100">#008e37</color>
+    <color name="blueDark100">#004eff</color>
+    <color name="navy">#163259</color>
+    <color name="purpleDark100">#3f1b83</color>
+
+</resources>

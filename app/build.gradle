@@ -1,0 +1,201 @@
+apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+//apply plugin: 'android-apt'
+
+buildscript {
+    repositories {
+        jcenter()
+        maven { url 'https://maven.fabric.io/public' }
+        maven { url "http://dl.bintray.com/journeyapps/maven" }
+    }
+
+    dependencies {
+        classpath 'io.fabric.tools:gradle:1.+'
+    }
+}
+
+repositories {
+    jcenter()
+    maven { url 'https://maven.fabric.io/public' }
+}
+
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'hiennv'
+            keyPassword '123456'
+        }
+    }
+    compileSdkVersion 28
+    buildToolsVersion '27.0.3'
+
+    flavorDimensions "default"
+
+    def APP_NAME = "Tabio"
+    def SCHEME = "tabioapp"
+    def DECIDE_VERSION = "v1"
+    def HOST_NAME = "www.tabio.com";
+    def BASE_URL = "https://www.tabio.com/"
+    def EC_URL = "https://www.tabio.com/"
+    def CART_BASE_URL = "https://tabio.com/"
+    def DECIDE_URL = "https://decide.dentsu-ec.jp/" + "${project.property("DECIDE_ACCOUNT_ID")}" + "/"
+    defaultConfig { // production config
+        applicationId "com.tabio.tabioapp"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 11
+        versionName "1.0.3"
+        multiDexEnabled true
+        ndk {
+            abiFilters "armeabi-v7a", "x86", "armeabi", "mips"
+        }
+    }
+    buildTypes {
+        release {
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            minifyEnabled true
+            jniDebuggable false
+            zipAlignEnabled true
+            shrinkResources true
+        }
+        debug {
+            debuggable true
+            applicationIdSuffix ".dev"
+            versionNameSuffix '.dev'
+//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+//            minifyEnabled true
+//            jniDebuggable false
+//            zipAlignEnabled true
+//            shrinkResources true
+        }
+    }
+    productFlavors {
+        pro {
+            buildConfigField "String", "FACEBOOK_APP_ID", "\"${project.property("FACEBOOK_APP_ID")}\""
+            buildConfigField "String", "FABRIC_API_KEY", "\"${project.property("FABRIC_API_KEY")}\""
+            buildConfigField "String", "TWITTER_KEY", "\"${project.property("TWITTER_KEY")}\""
+            buildConfigField "String", "TWITTER_SECRET", "\"${project.property("TWITTER_SECRET")}\""
+            buildConfigField "String", "GOOGLE_ANALYTICS_ID", "\"${project.property("GOOGLE_ANALYTICS_ID")}\""
+            buildConfigField "String", "GOOGLE_API_KEY", "\"${project.property("GOOGLE_API_KEY")}\""
+            buildConfigField "String", "DECIDE_ACCOUNT_ID", "\"${project.property("DECIDE_ACCOUNT_ID")}\""
+            buildConfigField "String", "DECIDE_APPLICATION_KEY", "\"${project.property("DECIDE_APPLICATION_KEY")}\""
+            buildConfigField "String", "ADBRIX_API_KEY", "\"${project.property("ADBRIX_API_KEY")}\""
+            buildConfigField "String", "ADBRIX_HASH_KEY", "\"${project.property("ADBRIX_HASH_KEY")}\""
+            buildConfigField "String", "SENDER_ID", "\"${project.property("GOOGLE_CLOUD_MESSAGING_SENDER_ID")}\""
+            buildConfigField "String", "APP_NAME", '"' + APP_NAME + '"'
+            buildConfigField "String", "BASE_URL", '"' + BASE_URL + '"'
+            buildConfigField "String", "CART_BASE_URL", '"' + CART_BASE_URL + '"'
+            buildConfigField "String", "DECIDE_URL", '"' + DECIDE_URL + '"'
+            buildConfigField "String", "EC_URL", '"' + EC_URL + '"'
+            buildConfigField "String", "DECIDE_VERSION", '"' + DECIDE_VERSION + '"'
+            manifestPlaceholders = [
+                    appName      : APP_NAME,
+                    scheme       : SCHEME,
+                    hostname     : HOST_NAME,
+                    facebookAppId: "${project.property("FACEBOOK_APP_ID")}",
+                    fabricApiKey : "${project.property("FABRIC_API_KEY")}",
+                    googleApiKey : "${project.property("GOOGLE_API_KEY")}",
+                    adbrixApiKey : "${project.property("ADBRIX_API_KEY")}",
+                    adbrixHashKey: "${project.property("ADBRIX_HASH_KEY")}",
+            ]
+        }
+        dev {
+//            versionName '1.0'
+//            versionCode 1
+            APP_NAME = "Tabio(dev)"
+            SCHEME = "tabioappdev"
+            DECIDE_VERSION = "v1"
+            BASE_URL = "https://stg.tabio.com/"
+            CART_BASE_URL = BASE_URL
+            DECIDE_URL = "https://decide.dentsu-ec.jp/" + "${project.property("DECIDE_ACCOUNT_ID_DEV")}" + "/"
+            buildConfigField "String", "FACEBOOK_APP_ID", "\"${project.property("FACEBOOK_APP_ID_DEV")}\""
+            buildConfigField "String", "FABRIC_API_KEY", "\"${project.property("FABRIC_API_KEY_DEV")}\""
+            buildConfigField "String", "TWITTER_KEY", "\"${project.property("TWITTER_KEY_DEV")}\""
+            buildConfigField "String", "TWITTER_SECRET", "\"${project.property("TWITTER_SECRET_DEV")}\""
+            buildConfigField "String", "GOOGLE_ANALYTICS_ID", "\"${project.property("GOOGLE_ANALYTICS_ID_DEV")}\""
+            buildConfigField "String", "GOOGLE_API_KEY", "\"${project.property("GOOGLE_API_KEY_DEV")}\""
+            buildConfigField "String", "DECIDE_ACCOUNT_ID", "\"${project.property("DECIDE_ACCOUNT_ID_DEV")}\""
+            buildConfigField "String", "DECIDE_APPLICATION_KEY", "\"${project.property("DECIDE_APPLICATION_KEY_DEV")}\""
+            buildConfigField "String", "ADBRIX_API_KEY", "\"${project.property("ADBRIX_API_KEY_DEV")}\""
+            buildConfigField "String", "ADBRIX_HASH_KEY", "\"${project.property("ADBRIX_HASH_KEY_DEV")}\""
+            buildConfigField "String", "SENDER_ID", "\"${project.property("GOOGLE_CLOUD_MESSAGING_SENDER_ID_DEV")}\""
+            buildConfigField "String", "APP_NAME", '"' + APP_NAME + '"'
+            buildConfigField "String", "BASE_URL", '"' + BASE_URL + '"'
+            buildConfigField "String", "CART_BASE_URL", '"' + CART_BASE_URL + '"'
+            buildConfigField "String", "DECIDE_URL", '"' + DECIDE_URL + '"'
+            buildConfigField "String", "EC_URL", '"' + EC_URL + '"'
+            buildConfigField "String", "DECIDE_VERSION", '"' + DECIDE_VERSION + '"'
+            manifestPlaceholders = [
+                    appName      : APP_NAME,
+                    scheme       : SCHEME,
+                    hostname     : HOST_NAME,
+                    facebookAppId: "${project.property("FACEBOOK_APP_ID_DEV")}",
+                    fabricApiKey : "${project.property("FABRIC_API_KEY_DEV")}",
+                    googleApiKey : "${project.property("GOOGLE_API_KEY_DEV")}",
+                    adbrixApiKey : "${project.property("ADBRIX_API_KEY_DEV")}",
+                    adbrixHashKey: "${project.property("ADBRIX_HASH_KEY_DEV")}",
+            ]
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/services/javax.annotation.processing.Processor'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/BCKEY.DSA'
+        exclude 'META-INF/BCKEY.SF'
+        exclude 'LICENSE.txt'
+        exclude 'AUTHORS'
+    }
+    dexOptions {
+        preDexLibraries false
+        javaMaxHeapSize "4g"
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    testImplementation 'junit:junit:4.12'
+    implementation('com.crashlytics.sdk.android:crashlytics:2.5.5@aar') {
+        transitive = true;
+    }
+    implementation('com.twitter.sdk.android:twitter:1.13.0@aar') {
+        transitive = true;
+    }
+    //noinspection GradleCompatible
+    implementation 'com.android.support:support-v4:24.2.0'
+    implementation 'com.android.support:appcompat-v7:24.2.0'
+    implementation 'com.android.support:design:24.2.0'
+    implementation 'com.android.support:cardview-v7:24.2.0'
+    implementation 'com.android.support:recyclerview-v7:24.2.0'
+    implementation 'com.jakewharton:butterknife:8.2.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.2.1'
+    implementation 'com.squareup.okhttp3:okhttp:3.4.1'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.4.1'
+    implementation 'com.github.franmontiel:PersistentCookieJar:v0.9.3'
+    implementation 'com.facebook.android:facebook-android-sdk:4.+'
+    implementation 'com.google.android.gms:play-services:9.4.0'
+    implementation 'com.google.android.gms:play-services-analytics:9.4.0'
+    implementation 'com.google.android.gms:play-services-gcm:9.4.0'
+    //http://y-anz-m.blogspot.jp/2016/02/conentavailable-true-foreground.html
+    implementation 'com.android.support:multidex:1.0.1'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'com.squareup:otto:1.3.8'
+    implementation 'de.hdodenhof:circleimageview:2.1.0'
+    implementation 'com.bartoszlipinski:viewpropertyobjectanimator:1.4.5'
+    implementation 'com.journeyapps:zxing-android-embedded:3.3.0'
+    implementation 'com.google.zxing:core:3.2.1'
+    implementation 'jp.mixi:AndroidDeviceCompatibility:2.0.0'
+    implementation 'io.reactivex:rxandroid:1.2.1'
+    implementation 'io.reactivex:rxjava:1.1.6'
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.1.17'
+    implementation 'com.vinaysshenoy:mugen:1.0.2'
+    implementation 'se.emilsjolander:StickyScrollViewItems:1.1.0'
+    implementation 'net.yslibrary.keyboardvisibilityevent:keyboardvisibilityevent:1.0.1'
+}
+
+apply plugin: 'com.google.gms.google-services'

@@ -1,0 +1,25 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tutorial.TutorialFragment">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gif_view"
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        android:layout_gravity="center|bottom"
+        android:visibility="gone"
+        />
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="150dp"
+        android:layout_height="44dp"
+        android:background="@drawable/logo"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        />
+
+</FrameLayout>

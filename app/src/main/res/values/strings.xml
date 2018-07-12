@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="debug">デバッグ</string>
+    <string name="error.text.maintenance">ただいまシステムメンテナンス中です。\n後ほどアクセスしてください</string>
+    <string name="error.text.undefined">不明なエラーが発生しました</string>
+    <string name="error.text.connection">ネットワークに接続できません。\n通信環境の良いところで、再度お試しください。</string>
+    <string name="error">エラー</string>
+    <string name="error.text.input.id">メールアドレス or Tabio IDを入力してください</string>
+    <string name="error.text.input.tabioid">Tabio IDを入力してください</string>
+    <string name="error.text.input.pin">PINコードを入力してください</string>
+    <string name="error.text.input.email">メールアドレスを入力してください</string>
+    <string name="error.text.input.password">パスワード or PINコードを入力してください</string>
+    <string name="error.text.input.password2">パスワードを入力してください</string>
+    <string name="error.text.location.toolong">位置情報の取得に時間がかかっています。しばらくお待ちください。</string>
+    <string name="error.text.nodata">%1$sはありません</string>
+    <string name="text.item">商品</string>
+    <string name="text.items2">アイテム</string>
+    <string name="text.store">店舗</string>
+    <string name="text.coordinate">コーディネート</string>
+    <string name="text.review">レビュー</string>
+    <string name="text.readHistory">閲覧履歴</string>
+    <string name="text.orderHistory">購入履歴</string>
+    <string name="text.news">お知らせ</string>
+    <string name="text.topics">トピックス</string>
+    <string name="button.start">はじめる</string>
+    <string name="button.first">さあ、はじめよう！</string>
+    <string name="button.login">ログイン</string>
+    <string name="button.login.first">機種変更・通販会員の方</string>
+    <string name="button.accept">同意する</string>
+    <string name="button.resetPassword">パスワードを忘れた方はこちら</string>
+    <string name="button.aboutAccount">Tabio ID, PINコードとは？</string>
+    <string name="button.editAccount">アカウント編集</string>
+    <string name="button.purchaseNow">今すぐ購入</string>
+    <string name="button.restockRequest">再入荷リクエストする</string>
+    <string name="button.restockRequested">再入荷リクエスト済み</string>
+    <string name="button.restockRequested2">リクエスト済み</string>
+    <string name="button.soldout">購入不可</string>
+    <string name="button.map">マップ</string>
+    <string name="button.phone">電話する</string>
+    <string name="button.favorite">お気に入り</string>
+    <string name="button.more">もっとみる</string>
+    <string name="button.search">検索</string>
+    <string name="button.help">ヘルプ</string>
+    <string name="button.newCoupon">新着クーポン</string>
+    <string name="button.cart">カート</string>
+    <string name="button.cart.check">カートを見る</string>
+    <string name="button.back">戻る</string>
+    <string name="button.cover">カバー画像</string>
+    <string name="button.edit">編集する</string>
+    <string name="button.reset">取り消す</string>
+    <string name="button.connectFacebook">Facebook連携</string>
+    <string name="button.connectTwitter">Twitter連携</string>
+    <string name="button.registerEmailPassword">メールアドレス・パスワード登録</string>
+    <string name="button.settings">設定</string>
+    <string name="button.close">閉じる</string>
+    <string name="button.detail">詳しくみる</string>
+    <string name="button.save">保存する</string>
+    <string name="button.save.id.pin">ID・PINをメールで保存</string>
+    <string name="button.review.create">レビューを書く</string>
+    <string name="button.send">送信</string>
+    <string name="button.push.desc">プッシュ通知の詳しい設定はこちら</string>
+    <string name="button.ok">ok</string>
+    <string name="button.register">登録する</string>
+    <string name="button.update.emailpassword">メールアドレス・パスワードを変更する</string>
+    <string name="button.contact">お問い合わせ</string>
+    <string name="button.returned">返品・交換はこちら</string>
+    <string name="button.cancel">キャンセル</string>
+    <string name="button.delivery.status">配送状況を確認する</string>
+    <string name="text.input.required">※必須</string>
+    <string name="text.tutorial.1">いつでも、どこでも、使える、貯まる。\nTabioアプリ</string>
+    <string name="text.tutorial.2">会員証以外にも、お買い物やチェックイン、\nコーディネートも見れるよ！</string>
+    <string name="text.tutorial.3">様々な方法で「ピース」が貯まり、ピースが貯まるとお買い物で使えるポイントをGET！</string>
+    <string name="text.tutorial.4">ピースが貯まると会員ランクがUP！\nランクに応じた素敵なクーポンをプレゼント！</string>
+    <string name="text.terms.title">会員規約・通信販売規約</string>
+    <string name="text.about.description">Tabio ID、 PINコードは、Tabio会員アプリ会員様に自動付与される、会員ナンバーと、パスワードです。マイページでもご確認いただけます。</string>
+    <string name="text.about.example.title">Tabio ID / PINコード例</string>
+    <string name="text.about.example.tabio.id">Tabio ID : 1234567890123</string>
+    <string name="text.about.example.tabio.pin">PINコード : 1234</string>
+    <string name="text.about.caution">
+        Tabio IDとPINコードは、\nログインID・パスワードとして扱われます。\n このIDとPINコードは再発行することができません。\n
+        IDとPINコードは自分宛にメールで送るか、\nキャプチャを撮るなど、大切に保管してください。\n
+        また、IDとPINコードは「マイページ」内で\nいつでもご確認いただけます。
+    </string>
+    <string name="text.login.description">ご登録されたメールアドレス、SNS、Tabio ID/PINコードでログインできます。Tabioオンラインストア会員の方は、ご利用のメールアドレスをご入力ください。</string>
+    <string name="text.login.form.title">Tabio ID ログイン</string>
+    <string name="text.login.form.hint.id">Tabio ID またはメールアドレスを入力</string>
+    <string name="text.login.from.hint.pass">PINコード またはパスワードを入力</string>
+    <string name="text.login.form.sns.title">SNSアカウントでログイン</string>
+    <string name="text.main.title">会員証</string>
+    <string name="text.main.title.totalPoint">TOTALポイント : </string>
+    <string name="text.main.title.expiresPiece">ピース有効期限 : </string>
+    <string name="text.main.title.expiresPoint">ポイント有効期限 : </string>
+    <string name="text.main.title.piece">  piece  </string>
+    <string name="text.main.condition">残り%1$dピースで%2$dポイント付与されます</string>
+    <string name="text.date.year">年</string>
+    <string name="text.date.month">月</string>
+    <string name="text.date.day">日</string>
+    <string name="text.main.description.description">プッシュ通知をONにして、\nお得なクーポンをゲットしよう。</string>
+    <string name="text.main.help.title">会員証画面について</string>
+    <string name="text.main.help.description.piece.1">1ピース</string>
+    <string name="text.main.help.description.piece.5">5ピース</string>
+    <string name="text.main.help.description.piece.10">10ピース</string>
+    <string name="text.main.help.description.1.1">商品購入1円につき</string>
+    <string name="text.main.help.description.1.2">商品・店舗・コーデのお気に入り</string>
+    <string name="text.main.help.description.1.4">レビュー投稿</string>
+    <string name="text.main.help.description.2.1">5000ピースが貯まると、100ポイントが付与されます。\nポイントは1ポイント1円として、実際のお買い物で使用できます。</string>
+    <string name="text.main.help.description.3.1">ピースを貯めるとRankがあがります。\nRankによって、お得なクーポンが配信されます。\nクーポンの一覧がこちらで確認できます</string>
+    <string name="text.coupon.title">クーポン</string>
+    <string name="text.coupon.barcode.title">会員バーコード</string>
+    <string name="text.coupon.type.all">全店・オンライン共通</string>
+    <string name="text.coupon.type.shop">お店で使える</string>
+    <string name="text.coupon.type.online">オンライン限定</string>
+    <string name="text.coupon.detail.title">クーポン詳細</string>
+    <string name="text.coordinate.title">スキャンコーデ</string>
+    <string name="text.coordinate.store.title">%1$sのコーディネート</string>
+    <string name="text.scan.title">スキャン</string>
+    <string name="text.scan.description">枠の中にバーコードが\n入るようにしてください</string>
+    <string name="text.blog.title">%1$sのブログ/キャンペーン</string>
+    <string name="text.account.my.id">Tabio ID</string>
+    <string name="text.account.my.id.input">Tabio IDを入力</string>
+    <string name="text.account.my.pin">PINコード</string>
+    <string name="text.account.my.pin.input">PINコードを入力</string>
+    <string name="text.account.my.idpin.send">IDとPINをメールで送る</string>
+    <string name="text.account.email.register">メールアドレス登録</string>
+    <string name="text.account.email.register.description.1">
+        メールアドレスで、Tabioアプリのアカウントを登録します。機種変更、再インストール時に登録情報でログインすると、
+        以前の情報を引き継ぐことができます。「登録する」ボタンを押した後、自動確認メールをお送りします。
+    </string>
+    <string name="text.account.email.register.description.2">
+        こちらでメールアドレスを登録していただくと、\nTabioオンラインストアでも、ログインすることができます。\n
+        メールアドレス・パスワードを変更する場合は\nTabioオンラインストアのマイページより変更してください。
+    </string>
+    <string name="text.account.email">メールアドレス</string>
+    <string name="text.account.email.input">メールアドレスを入力</string>
+    <string name="text.account.password">パスワード</string>
+    <string name="text.account.password.input">パスワードを入力</string>
+    <string name="text.account.email.input.done">メールアドレスはご登録済みです。</string>
+    <string name="text.account.password.input.done">ご登録されているパスワード</string>
+    <string name="text.mypage.title">マイページ</string>
+    <string name="text.mypage.menu.title.favoriteItems">お気に入り商品</string>
+    <string name="text.mypage.menu.title.favoriteCoordinates">お気に入りコーデ</string>
+    <string name="text.mypage.menu.title.favoriteStores">お気に入り店舗</string>
+    <string name="text.mypage.menu.title.reviews">レビュー</string>
+    <string name="text.mypage.menu.title.pieceGetHistories">ピース取得履歴</string>
+    <string name="text.mypage.menu.title.pointGetHistories">ポイント取得履歴</string>
+    <string name="text.histories.unit.piece">ピース</string>
+    <string name="text.histories.piece.total">累計ピース数</string>
+    <string name="text.piece.invalid">%1$sで失効します。</string>
+    <string name="text.histories.unit.point">ポイント</string>
+    <string name="text.histories.point.balance">保有ポイント残高</string>
+    <string name="text.purchase.title.endText">にて購入</string>
+    <string name="text.item.order.status.1">購入済み</string>
+    <string name="text.item.order.status.2">注文完了</string>
+    <string name="text.item.order.status.3">発送待ち</string>
+    <string name="text.item.order.status.4">発送済</string>
+    <string name="text.item.order.status.5">キャンセル</string>
+    <string name="text.item.order.status.6">返品</string>
+    <string name="text.checkin.title">チェックイン</string>
+    <string name="text.checkin.menu.title.checkinableStores">チェックイン可能な店舗</string>
+    <string name="text.checkin.menu.title.nearbyStores">お近くの店舗</string>
+    <string name="text.checkin.menu.title.checkinHistories">チェックイン履歴</string>
+    <string name="text.checkin.no.title">チェックインできる店舗がありません。</string>
+    <string name="text.checkin.no.description.1">お店にチェックインしてピースを貯めよう。</string>
+    <string name="text.checkin.no.description.2">１回のチェックインで５ピースを獲得できます。</string>
+    <string name="text.store.result.title">検索結果</string>
+    <string name="text.store.operation.date">営業日</string>
+    <string name="text.store.operation.time">営業時間</string>
+    <string name="text.store.tel">TEL</string>
+    <string name="text.coordinates.title">コーディネート一覧</string>
+    <string name="text.item.price.netoftax">(税抜)</string>
+    <string name="text.order.item.price.netoftax">商品代金（税抜）:</string>
+    <string name="text.order.item.price.discount.netoftax">値引き（税抜）:</string>
+    <string name="text.order.item.usepoint.netoftax">ポイント利用（税抜）:</string>
+    <string name="text.order.item.subtotal.netoftax">小計（税抜）:</string>
+    <string name="text.order.item.shippingFees.taxIncluded">送料・手数料（税込）:</string>
+    <string name="text.order.item.getPiece">取得ピース:</string>
+    <string name="text.order.item.sellingPrice.taxIncluded">販売価格（税込）</string>
+    <string name="text.item.menu.title.instockStores">在庫がある近くの店舗</string>
+    <string name="text.item.caution1">表示の金額はオンラインストアの金額です。店舗の販売額と異なる場合があります</string>
+    <string name="text.item.caution2">在庫ありの表示でも売り切れの場合があります。必ず利用店舗にお問い合わせください</string>
+    <string name="text.item.magazine.published">雑誌掲載</string>
+    <string name="text.item.title.description">アイテム説明</string>
+    <string name="text.item.title.material">素材</string>
+    <string name="text.item.status.few">残りわずか</string>
+    <string name="text.item.status.hasStock">在庫あり</string>
+    <string name="text.item.status.outOfStock">在庫なし</string>
+    <string name="text.item.stock.noStore">現在お取り扱いのある店舗はございません</string>
+    <string name="text.item.cart.add">カートに追加しました。</string>
+    <string name="text.item.favorite.add">お気に入り登録しました。</string>
+    <string name="text.item.restock.caution">※プッシュ通知をOFFにしている場合、再入荷のお知らせが受け取れません。</string>
+    <string name="text.item.color">カラー</string>
+    <string name="text.item.size">サイズ</string>
+    <string name="text.item.quantity">数量</string>
+    <string name="text.notification.title.push">お知らせ通知</string>
+    <string name="text.notification.push.receive">お知らせ通知を受け取る</string>
+    <string name="text.notification.push.description">
+        セールのお知らせや、オトクな情報、ご購入された商品の出荷情報、再入荷情報など、お役立ち情報をプッシュ通知でお届けします。
+    </string>
+    <string name="text.notification.title.mail">メールマガジン</string>
+    <string name="text.notification.mail.receive">メールマガジンを受け取る</string>
+    <string name="text.notification.mail.description">セールのお知らせや、オトクな情報をメールマガジンでお届けします。</string>
+    <string name="text.profile.nickname.limit">12文字まで</string>
+    <string name="text.review.limit">最大800文字まで</string>
+    <string name="text.review.confirmed">承認済</string>
+    <string name="text.review.confirm.in">承認中</string>
+    <string name="text.review.post.success">レビュー投稿を受付けました</string>
+    <string name="text.review.post.success.description">レビュー投稿が承認され次第、表示されます。反映までしばらくお待ちください。</string>
+    <string name="text.store.services.title.ladies">レディース</string>
+    <string name="text.store.services.title.men">メンズ</string>
+    <string name="text.store.services.title.kids">キッズ</string>
+    <string name="text.store.services.title.embroidery">刺繍</string>
+    <string name="text.store.services.title.printing">プリント</string>
+    <string name="text.store.services.title.nonskid">ツボ押し</string>
+    <string name="text.store.services.title.cleat">滑り止め</string>
+    <string name="text.store.services.title.chinaUnionpay">銀聯カード</string>
+    <string name="text.store.services.title.dutyFree">免税</string>
+    <string name="text.store.services.title.membershipPiece">ピース付与</string>
+    <string name="text.store.services.title.membershipCert">ポイント利用</string>
+    <string name="text.store.business.title.weekday">平日</string>
+    <string name="text.store.business.title.holiday">土日祝</string>
+    <string name="text.store.menu.title.access">アクセス</string>
+    <string name="text.item.type.socks">ソックス</string>
+    <string name="text.item.type.footsies">カバーソックス</string>
+    <string name="text.item.type.sandalSocks">サンダルソックス</string>
+    <string name="text.item.type.tights">タイツ</string>
+    <string name="text.item.type.stockings">ストッキング</string>
+    <string name="text.item.type.leggings">レギンス</string>
+    <string name="text.item.type.stirrupLeggings">トレンカ</string>
+    <string name="text.item.type.legWarmers">レッグウォーマー</string>
+    <string name="text.search.title">検索条件</string>
+    <string name="text.search.condition.title">検索条件を指定</string>
+    <string name="text.search.count">件</string>
+    <string name="text.search.filtering">設定中</string>
+    <string name="text.search.sort">並び替え</string>
+    <string name="text.search.sort.new">新着</string>
+    <string name="text.search.sort.popular">売り上げ・人気順</string>
+    <string name="text.search.sort.price.row">価格が安い順</string>
+    <string name="text.search.sort.price.high">価格が高い順</string>
+    <string name="text.search.menu.freeword">フリーワード</string>
+    <string name="text.search.menu.prefectures">都道府県</string>
+    <string name="text.search.menu.brand">ブランド</string>
+    <string name="text.search.menu.itemServices">商品・サービス</string>
+    <string name="text.search.menu.searchByPrefectures">都道府県から探す</string>
+    <string name="text.search.menu.searchByBrands">ブランドから探す</string>
+    <string name="text.search.menu.searchByServices">商品・サービスから探す</string>
+    <string name="text.search.menu.gender">性別</string>
+    <string name="text.search.menu.type">種類</string>
+    <string name="text.search.menu.length">丈</string>
+    <string name="text.search.menu.size">サイズ</string>
+    <string name="text.search.menu.toeType">足指サイズ</string>
+    <string name="text.search.menu.function">機能</string>
+    <string name="text.search.menu.color">色</string>
+    <string name="text.search.menu.pattern">柄</string>
+    <string name="text.search.menu.price">価格帯</string>
+    <string name="text.store.brand.kutsushitaya">靴下屋</string>
+    <string name="text.store.brand.tabio">Tabio</string>
+    <string name="text.store.brand.tabio_men">Tabio MEN</string>
+    <string name="text.item.length.sneakersSocks">スニーカー丈ソックス</string>
+    <string name="text.item.length.shortAnkleLengthSocks">ショート・アンクルソックス</string>
+    <string name="text.item.length.crewSocks">クルー（ふくらはぎ下）</string>
+    <string name="text.item.length.highCutHighSocks">ハイカット・ハイソックス</string>
+    <string name="text.item.length.kneeHighSocks">ニーハイソックス</string>
+    <string name="text.item.size.0709">7~9cm(新生児用)</string>
+    <string name="text.item.size.1012">10~12cm(6~12か月)</string>
+    <string name="text.item.size.1315">13~15cm(1~3歳)</string>
+    <string name="text.item.size.1618">16~18cm(男児4~6歳、女児4~7歳)</string>
+    <string name="text.item.size.1921">19~21cm(男児7~10歳、女児8~10歳)</string>
+    <string name="text.item.size.2223">22.0cm~23.0cm</string>
+    <string name="text.item.size.2324">23.0cm~24.0cm</string>
+    <string name="text.item.size.2425">24.0cm~25.0cm</string>
+    <string name="text.item.size.2526">25.0cm~26.0cm</string>
+    <string name="text.item.size.2627">26.0cm~27.0cm</string>
+    <string name="text.item.size.2728">27.0cm~28.0cm</string>
+    <string name="text.item.size.2829">28.0cm~29.0cm</string>
+    <string name="text.item.toe.type.toeSocks">五本指</string>
+    <string name="text.item.toe.type.tabiSocks">タビ</string>
+    <string name="text.item.material.100Cotton">綿100%</string>
+    <string name="text.item.material.silk">シルク</string>
+    <string name="text.item.material.linen">麻</string>
+    <string name="text.item.material.wool">毛</string>
+    <string name="text.item.material.cupra">キュプラ</string>
+    <string name="text.item.material.cashmere">カシミヤ</string>
+    <string name="text.item.material.angora">アンゴラ</string>
+    <string name="text.item.material.organicCotton">オーガニックコットン</string>
+    <string name="text.item.function.warm">冷えとり</string>
+    <string name="text.item.function.compression">むくみ（着圧靴下）</string>
+    <string name="text.item.function.keepDryDeodorant">ムレ・臭い・水虫</string>
+    <string name="text.item.function.forDrySensitiveSkin">乾燥肌・敏感肌</string>
+    <string name="text.item.function.forTiredLegs">足の疲れ</string>
+    <string name="text.item.function.nonElasticSoftTop">足の締め付け（ゴム口ゆったり）</string>
+    <string name="text.item.function.sport">スポーツ</string>
+    <string name="text.item.function.forBetterSleep">おやすみ（熟睡したい方）</string>
+    <string name="text.item.color.white">白</string>
+    <string name="text.item.color.black">黒</string>
+    <string name="text.item.color.grey">グレー</string>
+    <string name="text.item.color.beige">ベージュ</string>
+    <string name="text.item.color.brown">茶</string>
+    <string name="text.item.color.pink">ピンク</string>
+    <string name="text.item.color.red">赤</string>
+    <string name="text.item.color.orange">オレンジ</string>
+    <string name="text.item.color.yellow">イエロー</string>
+    <string name="text.item.color.green">グリーン</string>
+    <string name="text.item.color.blue">ブルー</string>
+    <string name="text.item.color.navy">ネイビー</string>
+    <string name="text.item.color.purple">パープル</string>
+    <string name="text.item.pattern.plain">無地</string>
+    <string name="text.item.pattern.glittery">ラメ</string>
+    <string name="text.item.pattern.ribbed">リブ</string>
+    <string name="text.item.pattern.borders">ボーダー</string>
+    <string name="text.item.pattern.argyleDiamonds">アーガイル・ダイヤ</string>
+    <string name="text.item.pattern.dotsPolkaDots">ドット・水玉</string>
+    <string name="text.item.pattern.stars">星柄</string>
+    <string name="text.item.pattern.floral">花柄</string>
+    <string name="text.item.pattern.stripes">ストライプ</string>
+    <string name="text.item.pattern.checks">チェック</string>
+    <string name="text.item.pattern.ribbons">リボン</string>
+    <string name="text.item.pattern.hearts">ハート柄</string>
+    <string name="text.item.pattern.jacquard">ジャガード</string>
+    <string name="text.item.pattern.meshRaschelLace">メッシュ・ラッセル・網</string>
+    <string name="text.item.brand.tabioSports">TABIO SPORTS</string>
+    <string name="text.item.brand.tabioLegLabo">TABIO LEG LABO</string>
+    <string name="text.item.brand.tabioLuxe">Tabio LUXE</string>
+    <string name="text.item.brand.tabioArts">TABIO ARTS</string>
+    <string name="text.item.price.500">~500円</string>
+    <string name="text.item.price.5001000">500~1,000円</string>
+    <string name="text.item.price.10001500">1,000~1,500円</string>
+    <string name="text.item.price.15002000">1,500~2,000円</string>
+    <string name="text.item.price.20002500">2,000~2,500円</string>
+    <string name="text.item.price.25003000">2,500~3,000円</string>
+    <string name="text.item.price.30003500">3,000~3,500円</string>
+    <string name="text.item.price.35004000">3,500~4,000円</string>
+    <string name="text.item.price.40004500">4,000~4,500円</string>
+    <string name="text.item.price.45005000">4,500~5,000円</string>
+    <string name="text.item.price.5000">5000~</string>
+    <string-array name="prefectures">
+        <item>北海道</item>
+        <item>青森</item>
+        <item>岩手</item>
+        <item>宮城</item>
+        <item>秋田</item>
+        <item>山形</item>
+        <item>福島</item>
+        <item>茨城</item>
+        <item>栃木</item>
+        <item>群馬</item>
+        <item>埼玉</item>
+        <item>千葉</item>
+        <item>東京</item>
+        <item>神奈川</item>
+        <item>新潟</item>
+        <item>富山</item>
+        <item>石川</item>
+        <item>福井</item>
+        <item>山梨</item>
+        <item>長野</item>
+        <item>岐阜</item>
+        <item>静岡</item>
+        <item>愛知</item>
+        <item>三重</item>
+        <item>滋賀</item>
+        <item>京都</item>
+        <item>大阪</item>
+        <item>兵庫</item>
+        <item>奈良</item>
+        <item>和歌山</item>
+        <item>鳥取</item>
+        <item>島根</item>
+        <item>岡山</item>
+        <item>広島</item>
+        <item>山口</item>
+        <item>徳島</item>
+        <item>香川</item>
+        <item>愛媛</item>
+        <item>高知</item>
+        <item>福岡</item>
+        <item>佐賀</item>
+        <item>長崎</item>
+        <item>熊本</item>
+        <item>大分</item>
+        <item>宮崎</item>
+        <item>鹿児島</item>
+        <item>沖縄</item>
+    </string-array>
+    <string name="text.faq.howto">使い方がわかるチュートリアルはこちら</string>
+    <string name="text.faq.title">Tabioアプリについて</string>
+    <string name="text.faq.title.1">商品について</string>
+    <string name="text.faq.title.2">Tabio会員について</string>
+    <string name="text.faq.title.3">Tabioアプリのご利用について</string>
+    <string name="text.faq.title.4">店舗のご利用について</string>
+    <string name="text.faq.title.5">Tabioオンラインストアのご利用について</string>
+    <string name="text.faq.title.6">不具合・トラブル</string>
+    <string name="text.faq.title.7">退会について</string>
+    <string name="text.faq.title.8">企業情報</string>
+    <string name="text.faq.title.9">その他</string>
+    <string name="text.preference.title.accounts">アカウント登録</string>
+    <string name="text.preference.title.savetabioidpin.save">Tabio ID、PINコードをメールで保存する</string>
+    <string name="text.preference.title.login.tabio">Tabio ID、PINコードでログイン</string>
+    <string name="text.preference.title.login.facebook">Facebookアカウント連携する</string>
+    <string name="text.preference.title.login2.facebook">Facebookアカウントでログイン</string>
+    <string name="text.preference.title.login.twitter">Twitterアカウント連携する</string>
+    <string name="text.preference.title.login2.twitter">Twitterアカウントでログイン</string>
+    <string name="text.preference.title.login.email">メールアドレス・パスワードを登録する</string>
+    <string name="text.preference.title.login2.email">メールアドレス・パスワードでログイン</string>
+    <string name="text.preference.login.caution">ご登録いただくと、機種変更、再インストールの際に、\n元のデータを復元することができます。</string>
+    <string name="text.preference.login.caution2">ログインをすると、元のデータを復元いただけます。</string>
+    <string name="text.preference.title.online">Tabioオンラインストア会員情報とアプリ情報を統合</string>
+    <string name="text.preference.title.online2">Tabioオンラインストア会員情報と統合する</string>
+    <string name="text.preference.title.login.online">Tabioオンラインストアログイン</string>
+    <string name="text.preference.title.online.caution">Tabioオンラインストアのアカウントをお持ちの方は、\nデータをアプリと統合することができます。</string>
+    <string name="text.preference.title.settings">設定</string>
+    <string name="text.preference.title.settings.notification">プッシュ通知・メール設定</string>
+    <string name="text.preference.title.settings.language">言語設定</string>
+    <string name="text.preference.title.help.terms">会員規約</string>
+    <string name="text.preference.title.help.security">情報セキュリティポリシー</string>
+    <string name="text.preference.title.help.commercialRow">特定商取引法に基づく表示</string>
+    <string name="text.preference.title.help.faq">FAQ・お問い合わせ</string>
+    <string name="text.preference.savetabioidpin.title">あなたのTabio ID・PIN</string>
+    <string name="text.account.profile.title.nickname">ニックネーム</string>
+    <string name="text.account.profile.title.birthday">生年月日</string>
+    <string name="text.account.profile.title.nickname.placeholder">ニックネームを入力</string>
+    <string name="text.account.profile.title.birthday.placeholder">生年月日を選択</string>
+    <string name="text.account.profile.title.gender.placeholder">性別を選択</string>
+    <string name="text.account.profile.dialog.title.birthday">生年月日を選択してください</string>
+    <string name="text.account.connect.title">アカウント連携</string>
+    <string name="text.account.login.facebook.success">Facebookアカウントを連携しました</string>
+    <string name="text.account.login.facebook.fail">Facebookログインに失敗しました</string>
+    <string name="text.account.login.twitter.success">Twitterアカウントを連携しました</string>
+    <string name="text.account.login.twitter.fail">Twitterログインに失敗しました</string>
+    <string name="text.account.login.email.success">Email、Passwordを連携しました</string>
+    <string name="text.account.login.email.fail">Email、Password連携に失敗しました</string>
+    <string name="text.account.login.success">ログインに成功しました</string>
+    <string name="text.account.login.fail">ログインに失敗しました</string>
+    <string name="text.account.migrate.caution">
+        ログインをすると、機種変更や、再インストールの際に元のデータを復元いただけます。
+        ピース・ポイント・購入履歴などの情報は統合されますが、現在のアプリのアカウント情報（Tabio ID、PINコード、メールアドレス、生年月日、ニックネームなど）は上書きされますので、ご注意ください。
+    </string>
+    <string name="text.review.create.fail.nickname">ニックネームが入力されていません</string>
+    <string name="text.review.create.fail.review">レビューが入力されていません</string>
+    <string name="text.account.language.change">言語設定を変更しますか？</string>
+    <string name="text.account.language.ja">日本語</string>
+    <string name="text.account.language.en">English</string>
+    <string name="text.account.language.fr">Français</string>
+    <string name="text.account.language.zh">中文</string>
+    <string name="text.account.language.ko">한국어</string>
+    <string name="text.date.weekday.sunday.short">日</string>
+    <string name="text.date.weekday.monday.short">月</string>
+    <string name="text.date.weekday.tuesday.short">火</string>
+    <string name="text.date.weekday.wednesday.short">水</string>
+    <string name="text.date.weekday.thursday.short">木</string>
+    <string name="text.date.weekday.friday.short">金</string>
+    <string name="text.date.weekday.saturday.short">土</string>
+    <string name="text.item.restock.success">再入荷リクエストを受け付けました。</string>
+    <string name="text.gender.man">男性</string>
+    <string name="text.gender.woman">女性</string>
+    <string name="text.account.edit.success">アカウント編集が完了しました</string>
+    <string name="text.email.send.title">【重要】Tabioアプリ ID・PINコード</string>
+    <string name="text.email.send.body">
+        いつも靴下屋、Tabio、Tabio MENをご愛顧賜りまして、誠にありがとうございます。\n
+        TabioアプリのID、PINコードをお伝えいたします。\n
+        Tabio ID：%1$s\n
+        PINコード：%2$s\n\n
+        このID、PINコードを用いてアプリにログインすると、機種変更や、再インストールの際に、ピース、ポイントを引き継いでご利用いただけます。\n
+        Tabio ID、PINコードは再発行ができません。\n
+        重要な情報となりますので、大切に保管してください。\n
+        ご利用誠にありがとうございます。\n\n
+        タビオ株式会社
+    </string>
+    <string name="mypage.popup.caption">
+        IDとPINコードは自分宛にメールで送るか、キャプチャを撮るなど、大切に保管してください。\n
+        また、IDとPINコードは「マイページ」内でいつでもご確認いただけます。
+    </string>
+    <string name="error.suspend">こちらのアカウントは現在停止されています。ピース、ポイントをご利用になれません。停止が解除されましたらご連絡をさせていただきます。ご了承ください。</string>
+    <string name="text.location.authorize.deny">位置情報の取得が許可されていません。設定画面で許可してください。</string>
+    <string name="text.account.email.validation">正しいメールアドレスを入力してください</string>
+    <string name="text.account.password.validation">パスワードは、6文字以上50文字以内で入力してください</string>
+    <string name="text.rankup.get">%1$sPOINTが付与されました</string>
+    <string name="text.rankup.total">TOTAL POINT %1$sPOINT</string>
+    <string name="text.tax">税:</string>
+    <string name="text.order.item.total.taxIncluded">合計（税込）</string>
+    <string name="text.coordinate.description.description1">コーデをお気に入りしてピースゲット！</string>
+    <string name="text.coordinate.description.description2">バーコードをスキャンして\nコーディネートをチェック</string>
+    <string name="text.checkin.description.description">位置情報をONにして、お店にチェックインしよう</string>
+    <string name="text.error.account.migrate">入力された情報に誤りがあります。\nご確認のうえ、再度ご入力ください。</string>
+    <string name="text.no.store.search">該当する店舗がありません。</string>
+    <string name="text.no.item.search">該当する商品がありません。</string>
+    <string name="text.no.item.search.description">再度検索内容を変更してください</string>
+    <string name="text.camera.authorize.description">「Tabioアプリ」でカメラへのアクセスが許可させていません。カメラアクセスの設定をお願いします。</string>
+    <string name="text.coordinate.title.new">新着コーディネート</string>
+    <string name="text.account.push.change">プッシュ通知設定を変更しました。</string>
+    <string name="text.account.mailmagazine.change">メールマガジン設定を変更しました。</string>
+    <string name="text.account.update.force.title">アプリのバージョンが新しくなりました。</string>
+    <string name="text.account.update.force.message">新しいバージョンのアプリがリリースされました。アップデートしてご利用ください。</string>
+    <string name="text.account.update.force.button.positive">アップデート</string>
+    <string name="button.update.password">パスワードを変更する</string>
+    <string name="text.account.login.caution">すでにメールアドレスで会員登録されている場合は、マイページよりFacebook、Twitter連携をお願いします。</string>
+    <string name="text.account.login.facebook.fail2">Facebook連携に失敗しました</string>
+    <string name="text.account.login.twitter.fail2">Twitter連携に失敗しました</string>
+    <string name="text.account.setting.not.yet">未設定</string>
+    <string name="text.coupon.caution">※その他クーポンとの併用はできません</string>
+    <string name="text.actionsheet.camera">カメラ</string>
+    <string name="text.actionsheet.cameraroll">カメラロール</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment"></string>
+</resources>

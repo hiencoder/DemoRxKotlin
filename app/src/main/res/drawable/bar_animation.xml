@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="true">
+    <item android:drawable="@drawable/long_00" android:duration="30"/>
+    <item android:drawable="@drawable/long_01" android:duration="30"/>
+    <item android:drawable="@drawable/long_02" android:duration="30"/>
+    <item android:drawable="@drawable/long_03" android:duration="30"/>
+    <item android:drawable="@drawable/long_04" android:duration="30"/>
+    <item android:drawable="@drawable/long_05" android:duration="30"/>
+    <item android:drawable="@drawable/long_06" android:duration="30"/>
+    <item android:drawable="@drawable/long_07" android:duration="30"/>
+    <item android:drawable="@drawable/long_08" android:duration="30"/>
+    <item android:drawable="@drawable/long_09" android:duration="30"/>
+    <item android:drawable="@drawable/long_10" android:duration="30"/>
+    <item android:drawable="@drawable/long_11" android:duration="30"/>
+    <item android:drawable="@drawable/long_12" android:duration="30"/>
+    <item android:drawable="@drawable/long_13" android:duration="30"/>
+    <item android:drawable="@drawable/long_14" android:duration="30"/>
+    <item android:drawable="@drawable/long_15" android:duration="30"/>
+    <item android:drawable="@drawable/long_16" android:duration="30"/>
+    <item android:drawable="@drawable/long_17" android:duration="30"/>
+    <item android:drawable="@drawable/long_18" android:duration="30"/>
+    <item android:drawable="@drawable/long_19" android:duration="30"/>
+    <item android:drawable="@drawable/long_20" android:duration="30"/>
+    <item android:drawable="@drawable/long_21" android:duration="30"/>
+    <item android:drawable="@drawable/long_22" android:duration="30"/>
+    <item android:drawable="@drawable/long_23" android:duration="30"/>
+    <item android:drawable="@drawable/long_24" android:duration="30"/>
+</animation-list>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:padding="16dp"
+    >
+
+    <TextView
+        android:id="@+id/store_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="12dp"
+        android:textSize="18sp"
+        android:textColor="@color/greenDark200"
+        android:textStyle="bold"
+        android:text="Store Name"
+        />
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dp"
+        android:textSize="13dp"
+        android:textColor="@color/greenDark200"
+        android:text="新宿区西新宿西口地下街1号小田急エース南館"
+        />
+    <TextView
+        android:id="@+id/tel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dp"
+        android:textSize="13dp"
+        android:textColor="@color/greenDark200"
+        android:text="TEL:03-5909-3120"
+        />
+    <TextView
+        android:id="@+id/operation_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dp"
+        android:textSize="13dp"
+        android:textColor="@color/greenDark200"
+        android:text="営業日 年中無休"
+        />
+    <TextView
+        android:id="@+id/operation_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="13dp"
+        android:textColor="@color/greenDark200"
+        android:text="営業時間 10:00~21:00（平日）/ 10:00~21:00（祝祭日）"
+        />
+
+</LinearLayout>

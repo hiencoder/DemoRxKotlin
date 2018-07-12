@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="API URL">
+
+        <Preference
+            android:title="APP URL"
+            android:key="@string/prefAppUrl"/>
+
+        <Preference
+            android:title="DECIDE URL"
+            android:key="@string/prefDecideUrl"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="ユーザ情報">
+
+        <Preference
+            android:title="Tabio ID"
+            android:key="@string/prefTabioId"
+            />
+        <Preference
+            android:title="トークン"
+            android:key="@string/prefToken"
+            />
+        <Preference
+            android:title="リフレッシュトークン"
+            android:key="@string/prefRefreshToken"
+            />
+        <Preference
+            android:title="トークン失効日時"
+            android:key="@string/prefTokenExpires"
+            />
+        <Preference
+            android:title="デバイスID"
+            android:key="@string/registrationId"
+            />
+
+    </PreferenceCategory>
+
+
+
+    <PreferenceCategory
+        android:title="アカウント制御">
+
+        <Preference
+            android:title="トークンをリフレッシュする"
+            android:key="@string/prefUpdateToken"
+            />
+
+        <ListPreference
+            android:title="ユーザステータスを変更"
+            android:key="@string/choiceUserStatus"
+            android:entries="@array/userStatusKeys"
+            android:entryValues="@array/userStatusValues"
+            android:summary="通常、停止、退会を選択することができます" />
+
+        <CheckBoxPreference
+            android:title="インセンティブフラグ"
+            android:key="@string/didOpenIncentiveView"
+            android:summary="チェックを外すと再度インセンティブ画面へ遷移します"/>
+
+        <PreferenceScreen
+            android:title="このアプリをアンインストールする"
+            android:key="@string/uninstall"
+            android:summary="アンインストール画面が開きます" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="チュートリアル">
+        <CheckBoxPreference
+            android:title="コーディネート"
+            android:key="@string/didShowCoordinatesTutorial"
+            android:summary="新着コーディネートのチュートリアルフラグ"
+            />
+        <CheckBoxPreference
+            android:title="チェックイン"
+            android:key="@string/didShowCheckinTutorial"
+            android:summary="チェックインのチュートリアルフラグ"
+            />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="コーディネート">
+
+        <EditTextPreference
+            android:title="skipMin"
+            android:key="@string/coordinateSkipMin"
+            android:summary="コーディネートのスキップ最小値を編集できます"/>
+        <EditTextPreference
+            android:title="skipMax"
+            android:key="@string/coordinateSkipMax"
+            android:summary="コーディネートのスキップ最大値を編集できます"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="DECIDE">
+
+        <Preference
+            android:title="DECIDEログインフラグ"
+            android:key="@string/decideIsLogin"/>
+
+        <Preference
+            android:title="DECIDE UUID"
+            android:key="@string/decideUuid"/>
+
+        <Preference
+            android:title="DECIDE CSRF TOKEN"
+            android:key="@string/decideCsrfTokenPref"/>
+
+        <Preference
+            android:title="DECIDE COOKIE"
+            android:key="@string/decideCookie"/>
+
+        <Preference
+            android:title="DECIDE COMPTIME"
+            android:key="@string/decideCompTime"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="システム情報">
+
+        <Preference
+            android:title="バージョン"
+            android:key="@string/prefAppVersionName"/>
+        <Preference
+            android:title="バージョンコード"
+            android:key="@string/prefAppVersionCode"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

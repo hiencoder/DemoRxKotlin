@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".terms.TermsAgreementActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar_actionbar" />
+
+        <fragment
+            android:id="@+id/web_fragment"
+            android:name="com.tabio.tabioapp.web.WebFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/whiteSmoke"
+            tools:layout="@layout/fragment_web" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:paddingBottom="16dp"
+            android:paddingTop="16dp">
+
+            <Button
+                android:id="@+id/agree_button"
+                style="@style/ActionButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/action_button_height"
+                android:layout_marginLeft="@dimen/action_button_left_right_margin"
+                android:layout_marginRight="@dimen/action_button_left_right_margin"
+                android:text="@string/button.accept" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <include layout="@layout/network_progress_view"/>
+
+</FrameLayout>

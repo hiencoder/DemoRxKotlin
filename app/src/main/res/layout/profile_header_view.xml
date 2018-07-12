@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="190dp"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <ImageView
+        android:id="@+id/cover"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/account.profile.cover.size.height"
+        app:layout_collapseMode="parallax"
+        android:background="@color/whiteSmoke"
+        />
+
+    <Button
+        android:id="@+id/cover_edit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginBottom="60dp"
+        android:layout_marginRight="20dp"
+        android:stateListAnimator="@null"
+        android:drawableLeft="@drawable/ic_camera"
+        android:drawablePadding="6dp"
+        android:text="@string/button.cover"
+        app:layout_anchor="@id/cover"
+        app:layout_anchorGravity="bottom|right"
+        style="@style/WhiteButtonStyle"
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/icon"
+        android:layout_width="@dimen/account.profile.icon.size"
+        android:layout_height="@dimen/account.profile.icon.size"
+        android:layout_marginLeft="20dp"
+        app:layout_anchor="@id/cover"
+        app:layout_anchorGravity="left|bottom"
+        app:civ_fill_color="@color/white"
+        app:civ_border_width="2dp"
+        app:civ_border_color="@color/white"
+        />
+    <ImageButton
+        android:id="@+id/icon_edit_button"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="74dp"
+        android:background="@drawable/ic_camera_profile"
+        app:layout_anchor="@id/cover"
+        app:layout_anchorGravity="left|bottom"
+        />
+
+</android.support.design.widget.CoordinatorLayout>

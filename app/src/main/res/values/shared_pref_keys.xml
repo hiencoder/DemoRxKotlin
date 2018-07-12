@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+
+    <string name="prefAppUrl">pref_app_url</string>
+    <string name="prefDecideUrl">pref_decide_url</string>
+
+    <string name="didShowMainActivityDescription">didShowMainActivityDescription</string>
+    <string name="choiceUserStatus">choiceUserStatus</string>
+
+    <string-array name="userStatusKeys">
+        <item>通常</item>
+        <item>停止</item>
+        <item>退会</item>
+    </string-array>
+    <string-array name="userStatusValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string name="registrationId">registrationId</string>
+    <string name="didOpenIncentiveView">didOpenIncentiveView</string>
+
+    <string name="uninstall">uninstall</string>
+
+    <string name="coordinateSkipMin">coordinateSkipMin</string>
+    <string name="coordinateSkipMax">coordinateSkipMax</string>
+    <string name="didShowCoordinatesTutorial">didShowCoordinatesTutorial</string>
+    <string name="didShowCheckinTutorial">didShowCheckinTutorial</string>
+    <string name="decideIsLogin">dicideIsLogin</string>
+    <string name="decideCsrfTokenPref">decideCsrfTokenPref</string>
+    <string name="decideUuid">decideUuid</string>
+    <string name="decideCookie">decideCookiePref</string>
+    <string name="decideCompTime">decideCompTime</string>
+
+    <string name="prefTabioId">tabioId</string>
+    <string name="prefToken">token</string>
+    <string name="prefRefreshToken">refreshToken</string>
+    <string name="prefTokenExpires">tokenExpires</string>
+    <string name="prefAppVersionName">appVersionName</string>
+    <string name="prefAppVersionCode">appVersionCode</string>
+    <string name="prefUpdateToken">updateToken</string>
+
+</resources>

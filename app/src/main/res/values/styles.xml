@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <style name="Theme.Tabio.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <attr name="pageControlStyle" format="integer|reference" />
+
+    <style name="Theme.Tabio" parent="Theme.Tabio.Base">
+        <item name="pageControlStyle">@style/PageControlStyle</item>
+        <item name="actionMenuTextColor">@color/white</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+
+    </style>
+
+    <style name="ActionBarToolBarTheme" parent="Theme.Tabio">
+        <item name="android:textColorPrimary">@color/white</item>
+        <!-- title color -->
+        <item name="android:textColorSecondary">@color/white</item>
+        <!-- overflow icon color -->
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="ActionDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="DatePickerDialogStyle" parent="ActionDialogStyle">
+        <!--<item name="android:windowBackground">@color/transparent</item>-->
+    </style>
+
+    <style name="ActionBarPopupThemeOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="ScrollBarTheme">
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:fadeScrollbars">true</item>
+    </style>
+
+    <style name="Theme.Tabio.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Tabio.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="BaseButtonStyle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+    <style name="ActionButtonStyle" parent="BaseButtonStyle">
+        <item name="android:height">@dimen/action_button_height</item>
+        <item name="android:background">@drawable/action_button</item>
+        <item name="android:textSize">@dimen/action_button_textsize</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="SubActionButtonStyle" parent="ActionButtonStyle">
+        <item name="android:background">@drawable/subaction_button</item>
+    </style>
+
+    <style name="TextLinkButtonStyle">
+        <item name="android:textSize">@dimen/textlink_button_textsize</item>
+        <item name="android:textColor">@drawable/textlink_button</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="FacebookButtonStyle" parent="BaseButtonStyle">
+        <item name="android:background">@drawable/facebook_button</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TwitterLoginButtonStyle" parent="BaseButtonStyle">
+        <item name="android:background">@drawable/twitter_button</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="WhiteButtonStyle">
+        <item name="android:background">@drawable/white_button</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">@dimen/white_button_textsize</item>
+        <item name="android:paddingLeft">@dimen/white_button_left_right_padding</item>
+        <item name="android:paddingRight">@dimen/white_button_left_right_padding</item>
+    </style>
+    
+    <style name="TransparentButtonStyle">
+        <item name="android:background">@drawable/transparent_button</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/transparent_button_textsize</item>
+        <item name="android:paddingLeft">@dimen/transparent_button_left_right_padding</item>
+        <item name="android:paddingRight">@dimen/transparent_button_left_right_padding</item>
+    </style>
+
+    <style name="TransparentWhiteButtonStyle" parent="TransparentButtonStyle">
+        <item name="android:background">@drawable/transparent_white_button</item>
+    </style>
+
+    <style name="PageControlStyle">
+        <item name="android:width">@dimen/pagecontrol_width</item>
+        <item name="android:height">@dimen/pagecontrol_height</item>
+        <item name="android:layout_marginLeft">@dimen/pagecontrol_left_margin</item>
+        <item name="android:layout_marginRight">@dimen/pagecontrol_right_margin</item>
+        <item name="android:layout_marginTop">@dimen/pagecontrol_top_margin</item>
+        <item name="android:layout_marginBottom">@dimen/pagecontrol_bottom_margin</item>
+        <item name="android:src">@drawable/pagecontrol</item>
+    </style>
+
+    <style name="LoginFormTextStyle">
+        <!--<item name="android:width">@dimen/pagecontrol_width</item>-->
+        <item name="android:height">@dimen/loginform_text_height</item>
+        <item name="android:paddingLeft">@dimen/loginform_text_left_padding</item>
+        <item name="android:paddingRight">@dimen/loginform_text_right_padding</item>
+        <item name="android:textColorHint">@color/grayLight200</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+
+    <style name="EditTextStyle" parent="Base.V12.Widget.AppCompat.EditText">
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+
+
+    <style name="ListItemStyle">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:paddingLeft">@dimen/list.item.padding.left</item>
+        <item name="android:paddingRight">@dimen/list.item.padding.right</item>
+        <item name="android:paddingTop">@dimen/list.item.padding.top</item>
+        <item name="android:paddingBottom">@dimen/list.item.padding.bottom</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="PreferenceListItemStyle" parent="ListItemStyle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="NetworkProgressDialogStyle" parent="ActionDialogStyle">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+
+    <style name="NetworkProgressDialogStyle.Base">
+        <item name="android:bottomBright">@color/transparent</item>
+        <item name="android:bottomDark">@color/transparent</item>
+        <item name="android:bottomMedium">@color/transparent</item>
+        <item name="android:centerBright">@color/transparent</item>
+        <item name="android:centerDark">@color/transparent</item>
+        <item name="android:centerMedium">@color/transparent</item>
+        <item name="android:topBright">@color/transparent</item>
+        <item name="android:topDark">@color/transparent</item>
+    </style>
+
+    <style name="TabLayoutTextStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>
